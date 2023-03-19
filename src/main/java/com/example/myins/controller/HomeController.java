@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/myIns")
     public String myIns() {
-        return "my-ins";
+        return "login";
     }
 
     @GetMapping("/myCar")

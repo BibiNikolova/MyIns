@@ -13,8 +13,7 @@ spring:
         enabled: 'true'
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    password: Vanichka
-#    password: ${DEFAULT_DB_PASS:test}
+    password: ${DEFAULT_DB_PASS:test}
     username: root
     url: jdbc:mysql://localhost:3306/MyIns?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
 logging:
@@ -29,6 +28,11 @@ logging:
 server:
   port: 8080
 
-#myIns:
-    #admin:
-      #defaultpass: ${DEFAULT_PASS:test}
+
+
+myIns:
+    admin:
+      defaultpass: ${DEFAULT_ADMIN_PASS:test}
+
+jwt:
+  secret: "ThisIsNotASecret"

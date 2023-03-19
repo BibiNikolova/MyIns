@@ -10,7 +10,7 @@ public class ClientController {
 
     @GetMapping("/")
     public String getHomePage() {
-        return "index";
+        return "client-page";
     }
 
 }
