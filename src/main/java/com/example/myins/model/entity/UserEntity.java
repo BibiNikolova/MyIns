@@ -24,7 +24,6 @@ public class UserEntity extends BaseEntity {
     private String phone;
     @ManyToMany(cascade = CascadeType.MERGE)
     private List<Role> roles;
-
     @ManyToOne
     private Client client;
 
