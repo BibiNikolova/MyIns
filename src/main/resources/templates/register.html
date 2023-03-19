@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="bg" xmlns:th="http://www.thymeleaf.org"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Ins</title>
+    <link rel="stylesheet" href="/css/loginRegister/icons.css">
+    <link href="/static/css/loginRegister/patternfly.min.css" rel="stylesheet">
+    <link href="/static/css/loginRegister/patternfly-additions.min.css" rel="stylesheet">
+    <link href="/static/lib/zocial.css" rel="stylesheet">
+    <link href="/static/css/loginRegister/login.css" rel="stylesheet">
+    <link href="/static/css/loginRegister/style.css" rel="stylesheet">
+    <script src="/static/js/login/my.js"></script>
+</head>
+
+<body class="">
+<div class="top-line">
+    <div class="top-left">
+        <img src="/auth/resources/cfpay/login/azbg-customer-portal-evrotrust/img/allianz-logo.png" width="130" alt="logo">
+    </div>
+    <div class="top-right">
+        <div id="kc-locale">
+            <div id="kc-locale-wrapper" class="">
+                <div class="kc-dropdown" id="kc-locale-dropdown">
+
+                    <a href="#" id="kc-current-locale-link">BG</a>
+                    <ul>
+                        <li class="kc-dropdown-item"><a href="/auth/realms/azbg-customer-portal/login-actions/authenticate?client_id=customer-portal&amp;tab_id=vGO_GME1sDs&amp;execution=164e18ae-37d4-410c-b1ec-3c20d51b4b48&amp;kc_locale=bg">Bulgarian</a></li>
+                        <li class="kc-dropdown-item"><a href="/auth/realms/azbg-customer-portal/login-actions/authenticate?client_id=customer-portal&amp;tab_id=vGO_GME1sDs&amp;execution=164e18ae-37d4-410c-b1ec-3c20d51b4b48&amp;kc_locale=en">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login-pf-page">
+    <div class="main-wrapper">
+        <div id="alert-panel" class="alert-row">
+        </div>
+        <div class="row">
+            <div class="column left-column">
+                <div class="card-pf ">
+                    <header class="login-pf-header">
+                        <div class="login-title">        Създайте нов профил<br>бързо и лесно
+
+                        </div>
+                    </header>
+
+                    <div id="kc-content">
+                        <div id="kc-content-wrapper">
+
+                            <form id="kc-register-form" class="form-horizontal" action="https://myallianz-sso.allianz.bg/auth/realms/azbg-customer-portal/login-actions/registration?session_code=YrvJoUcDqGH0gdsH3SQn8ZS5V3U95ytFyLCkFaSm-dM&amp;execution=fb44cfbf-9b9e-4100-b7d3-2bcc235976e9&amp;client_id=customer-portal&amp;tab_id=vGO_GME1sDs" method="post" onsubmit="return validateForm() &amp;&amp; validatePhone()">
+
+                                <div class="form-group ">
+                                    <div id="label-email" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bogus">
+                                        <label class="control-label">Имейл</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" id="email" onkeyup="toggleLabel('email'); fieldTypeValidate('email')" onblur="blurEmptyField('email', false); isValidEmail()" class="form-control" name="email" value="" placeholder="Имейл">
+                                    </div>
+                                    <div id="alert-email" class="col-sm-12 alert-hide">
+                                        Полето е задължително!
+                                    </div>
+                                    <div class="field-hint">
+                                        example@mail.com
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <div id="label-mobileNumber" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bogus">
+                                        <label class="control-label">Мобилен номер</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div id="mobile-container">
+                                            <span id="selectWrapper"><label><select id="mobileNumberCode" name="user.attributes.mobile_number_code" onchange="changeMaskRegistration()"><option value="+359" selected="true">+359</option><option value="+1">+1</option><option value="+7">+7</option><option value="+20">+20</option><option value="+27">+27</option><option value="+30">+30</option><option value="+31">+31</option><option value="+32">+32</option><option value="+33">+33</option><option value="+34">+34</option><option value="+36">+36</option><option value="+39">+39</option><option value="+40">+40</option><option value="+41">+41</option><option value="+43">+43</option><option value="+44">+44</option><option value="+45">+45</option><option value="+46">+46</option><option value="+47">+47</option><option value="+48">+48</option><option value="+49">+49</option><option value="+51">+51</option><option value="+52">+52</option><option value="+53">+53</option><option value="+54">+54</option><option value="+55">+55</option><option value="+56">+56</option><option value="+57">+57</option><option value="+58">+58</option><option value="+60">+60</option><option value="+61">+61</option><option value="+62">+62</option><option value="+63">+63</option><option value="+64">+64</option><option value="+65">+65</option><option value="+66">+66</option><option value="+81">+81</option><option value="+82">+82</option><option value="+84">+84</option><option value="+86">+86</option><option value="+90">+90</option><option value="+91">+91</option><option value="+92">+92</option><option value="+93">+93</option><option value="+94">+94</option><option value="+95">+95</option><option value="+98">+98</option><option value="+211">+211</option><option value="+212">+212</option><option value="+213">+213</option><option value="+216">+216</option><option value="+218">+218</option><option value="+220">+220</option><option value="+221">+221</option><option value="+222">+222</option><option value="+223">+223</option><option value="+224">+224</option><option value="+225">+225</option><option value="+226">+226</option><option value="+227">+227</option><option value="+228">+228</option><option value="+229">+229</option><option value="+230">+230</option><option value="+231">+231</option><option value="+232">+232</option><option value="+233">+233</option><option value="+234">+234</option><option value="+235">+235</option><option value="+236">+236</option><option value="+237">+237</option><option value="+238">+238</option><option value="+239">+239</option><option value="+240">+240</option><option value="+241">+241</option><option value="+242">+242</option><option value="+243">+243</option><option value="+244">+244</option><option value="+245">+245</option><option value="+246">+246</option><option value="+247">+247</option><option value="+248">+248</option><option value="+249">+249</option><option value="+250">+250</option><option value="+251">+251</option><option value="+252">+252</option><option value="+253">+253</option><option value="+254">+254</option><option value="+255">+255</option><option value="+256">+256</option><option value="+257">+257</option><option value="+258">+258</option><option value="+260">+260</option><option value="+261">+261</option><option value="+262">+262</option><option value="+263">+263</option><option value="+264">+264</option><option value="+265">+265</option><option value="+266">+266</option><option value="+267">+267</option><option value="+268">+268</option><option value="+269">+269</option><option value="+290">+290</option><option value="+291">+291</option><option value="+297">+297</option><option value="+298">+298</option><option value="+299">+299</option><option value="+350">+350</option><option value="+351">+351</option><option value="+352">+352</option><option value="+353">+353</option><option value="+354">+354</option><option value="+355">+355</option><option value="+356">+356</option><option value="+357">+357</option><option value="+358">+358</option><option value="+370">+370</option><option value="+371">+371</option><option value="+372">+372</option><option value="+373">+373</option><option value="+374">+374</option><option value="+375">+375</option><option value="+376">+376</option><option value="+377">+377</option><option value="+378">+378</option><option value="+380">+380</option><option value="+381">+381</option><option value="+382">+382</option><option value="+383">+383</option><option value="+385">+385</option><option value="+386">+386</option><option value="+387">+387</option><option value="+389">+389</option><option value="+420">+420</option><option value="+421">+421</option><option value="+423">+423</option><option value="+500">+500</option><option value="+501">+501</option><option value="+502">+502</option><option value="+503">+503</option><option value="+504">+504</option><option value="+505">+505</option><option value="+506">+506</option><option value="+507">+507</option><option value="+508">+508</option><option value="+509">+509</option><option value="+590">+590</option><option value="+591">+591</option><option value="+592">+592</option><option value="+593">+593</option><option value="+594">+594</option><option value="+595">+595</option><option value="+596">+596</option><option value="+597">+597</option><option value="+598">+598</option><option value="+599">+599</option><option value="+670">+670</option><option value="+672">+672</option><option value="+673">+673</option><option value="+674">+674</option><option value="+675">+675</option><option value="+676">+676</option><option value="+677">+677</option><option value="+678">+678</option><option value="+679">+679</option><option value="+680">+680</option><option value="+681">+681</option><option value="+682">+682</option><option value="+683">+683</option><option value="+685">+685</option><option value="+686">+686</option><option value="+687">+687</option><option value="+688">+688</option><option value="+689">+689</option><option value="+690">+690</option><option value="+691">+691</option><option value="+692">+692</option><option value="+850">+850</option><option value="+852">+852</option><option value="+853">+853</option><option value="+855">+855</option><option value="+856">+856</option><option value="+880">+880</option><option value="+886">+886</option><option value="+960">+960</option><option value="+961">+961</option><option value="+962">+962</option><option value="+963">+963</option><option value="+964">+964</option><option value="+965">+965</option><option value="+966">+966</option><option value="+967">+967</option><option value="+968">+968</option><option value="+970">+970</option><option value="+971">+971</option><option value="+972">+972</option><option value="+972">+972</option><option value="+973">+973</option><option value="+974">+974</option><option value="+975">+975</option><option value="+976">+976</option><option value="+977">+977</option><option value="+992">+992</option><option value="+993">+993</option><option value="+994">+994</option><option value="+995">+995</option><option value="+996">+996</option><option value="+998">+998</option></select></label></span>
+                                            <input type="text" id="mobileNumber" autocomplete="chrome-off" name="user.attributes.mobile_number" class="form-control" onkeyup="toggleLabel('mobileNumber'); fieldTypeValidate('mobileNumber')" onkeydown="return numOnly(event);" oninput="resetPhoneField(); phoneMaskRegistration(event)" inputmode="numeric" maxlength="15" onblur="blurEmptyField('mobileNumber', false); validatePhoneRegistration()" placeholder="Мобилен номер" onpaste="return false" ondrop="return false" size="20" onfocus="this.removeAttribute('readonly');" readonly="">
+                                        </div>
+                                    </div>
+                                    <div id="alert-mobileNumber" class="col-sm-12 alert-hide">
+                                        Полето е задължително!
+                                    </div>
+                                    <div class="field-hint">
+                                        +359 88 488 76хх
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group ">
+                                    <div id="label-password" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bogus">
+                                        <label for="password" class="control-label">Парола</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="password" autocomplete="off" id="password" onkeyup="toggleLabel('password'); passwordTypeValidate('password')" onblur="blurEmptyField('password', true); passwordBlurValidate('password');" class="form-control" name="password" placeholder="Парола">
+                                        <span toggle="#password" class="toggle-password" onclick="togglePass('/auth/resources/cfpay/login/azbg-customer-portal-evrotrust', 'password', 'password')"><img id="eye-password" src="/auth/resources/cfpay/login/azbg-customer-portal-evrotrust/img/eye_open.svg" alt="eye"></span>
+                                    </div>
+                                    <div id="alert-password" class="col-sm-12 alert-hide">
+                                        Полето е задължително!
+                                    </div>
+                                </div>
+                                <div id="password-validation">
+                                    <div>Изисквания за паролата:</div>
+                                    <div id="valid10charsMin" class="validationRow"><span class="validPrefix"></span>минимум 5 символа</div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <div id="label-password-confirm" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bogus">
+                                        <label class="control-label">Потвърди паролата</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="password" id="password-confirm" onkeyup="toggleLabel('password-confirm'); fieldTypeValidate('password-confirm')" onblur="blurEmptyField('password-confirm', true)" class="form-control" name="password-confirm" placeholder="Потвърди паролата">
+                                        <span toggle="#password-confirm" class="toggle-password" onclick="togglePass('/auth/resources/cfpay/login/azbg-customer-portal-evrotrust', 'password-confirm', 'password')"><img id="eye-password-confirm" src="/auth/resources/cfpay/login/azbg-customer-portal-evrotrust/img/eye_open.svg" alt="eye"></span>
+                                    </div>
+                                    <div id="alert-password-confirm" class="col-sm-12 alert-hide">
+                                        Полето е задължително!
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div class="row gdpr1">
+                                            С натискане на бутон „НАПРЕД“, потвърждавам, че прочетох и съм съгласен с <a href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/documents/GT_C_customerportal_30.06.2021.pdf" target="_blank">Условията</a> и Съобщение за лични данни на <a href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/gdpr/%D0%97%D0%90%D0%94_%D0%90%D0%BB%D0%B8%D0%B0%D0%BD%D1%86_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F_%D0%96%D0%B8%D0%B2%D0%BE%D1%82.pdf" target="_blank">Алианц България Живот</a> и <a href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/gdpr/%D0%97%D0%90%D0%94_%D0%90%D0%BB%D0%B8%D0%B0%D0%BD%D1%86_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F.pdf" target="_blank">Алианц България</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div id="kc-form-buttons-new" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input id="regBtn" class="login-button" type="submit" value="НАПРЕД">
+                                    </div>
+
+                                    <div id="kc-form-options" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div id="kc-registration-new">
+                                            <span>Ако вече имате профил: <a href="/users/login">Вход</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div id="kc-info" class="login-pf-signup">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="column right-column">
+                <div class="info-title">Добре дошли в клиентския портал My Allianz</div>
+                <div class="info-subtitle">Тук ще можете да:</div>
+                <ul class="subpoints">
+                    <li>Откриете информация за всички Ваши застраховки,  плащания и документи</li>
+                    <li>Предявите претенция, както и да проследите статуса й</li>
+                    <li>Проследите кореспонденцията си с нас</li>
+                </ul>
+                <div class="woman-illustration">  <img src="/resources/static/img/woman_desc.png" alt="Woman on phone">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="footer-line">
+    <div class="bottom-left">
+        <span class="footer-link copy-link">© Allianz 2022</span>
+        <span class="footer-link"><a href="https://www.allianz.bg/bg_BG/individuals/data-privacy.html" target="_blank">Лични данни</a></span>
+        <span class="footer-link"><a href="https://www.allianz.bg/bg_BG/individuals/cookies-policy.html" target="_blank">Бисквитки</a></span>
+        <span class="footer-link"><a href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/documents/GT_C_customerportal_30.06.2021.pdf" target="_blank">Условия за ползване</a></span>
+    </div>
+    <div class="bottom-right">
+        <span class="hotline-support">Връзка с нас</span> <span class="phone-number">+359 700 13 014</span>
+    </div>
+</div>
+
+<script>
+    var option;
+    var temp = '';
+    var select = document.getElementById("mobileNumberCode");
+    var mobileWrapper = document.getElementById("mobileNumberWprapper");
+    select.style.display = 'none'
+    mobileWrapper.style.display = 'none'
+    const countryCodes = [359, 1, 7, 20, 27, 30, 31, 32, 33, 34, 36, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53,
+        54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 65, 66, 81, 82, 84, 86, 90, 91, 92, 93, 94, 95, 98, 211, 212, 213,
+        216, 218, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238,
+        239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 260,
+        261, 262, 263, 264, 265, 266, 267, 268, 269, 290, 291, 297, 298, 299, 350, 351, 352, 353, 354, 355, 356,
+        357, 358, 370, 371, 372, 373, 374, 375, 376, 377, 378, 380, 381, 382, 383, 385, 386, 387, 389, 420, 421,
+        423, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599,
+        670, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 685, 686, 687, 688, 689, 690, 691, 692,
+        850, 852, 853, 855, 856, 880, 886, 960, 961, 962, 963, 964, 965, 966, 967, 968, 970, 971, 972, 972, 973,
+        974, 975, 976, 977, 992, 993, 994, 995, 996, 998
+    ];
+    for (i = 0; i < countryCodes.length; i++) {
+        temp = '+' + countryCodes[i];
+        option = new Option(temp, temp);
+        if (!i) {
+            option.setAttribute('selected', true);
+        }
+        select.options[select.options.length] = option;
+    }
+</script></body></html>

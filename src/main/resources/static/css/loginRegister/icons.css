@@ -1,0 +1,1300 @@
+.ndbx-icon {
+    font-family:PatternLab-Icon;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal
+}
+.ndbx-icon:before {
+    font-family:PatternLab-Icon;
+    font-size:inherit
+}
+.nx-icon--arrow-up:before {
+    content:""
+}
+.nx-icon--arrow-down:before {
+    content:""
+}
+.nx-icon--arrow-left:before {
+    content:""
+}
+.nx-icon--arrow-right:before {
+    content:""
+}
+.nx-icon--arrow-up-slim:before {
+    content:""
+}
+.nx-icon--arrow-down-slim:before {
+    content:""
+}
+.nx-icon--arrow-left-slim:before {
+    content:""
+}
+.nx-icon--arrow-right-slim:before {
+    content:""
+}
+.nx-icon--paperclip:before {
+    content:""
+}
+.nx-icon--chevron-up:before {
+    content:""
+}
+.nx-icon--chevron-down:before {
+    content:""
+}
+.nx-icon--chevron-left:before {
+    content:""
+}
+.nx-icon--chevron-right:before {
+    content:""
+}
+.nx-icon--bookmark-o:before {
+    content:""
+}
+.nx-icon--calendar:before {
+    content:""
+}
+.nx-icon--arrow-upload:before {
+    content:""
+}
+.nx-icon--phone-o:before {
+    content:""
+}
+.nx-icon--check:before {
+    content:""
+}
+.nx-icon--check-circle:before {
+    content:""
+}
+.nx-icon--close:before {
+    content:""
+}
+.nx-icon--close-circle:before {
+    content:""
+}
+.nx-icon--credit-card-o:before {
+    content:""
+}
+.nx-icon--trash:before {
+    content:""
+}
+.nx-icon--download:before {
+    content:""
+}
+.nx-icon--exclamation-circle:before {
+    content:""
+}
+.nx-icon--exclamation-circle-o:before {
+    content:""
+}
+.nx-icon--exclamation-triangle:before {
+    content:""
+}
+.nx-icon--file:before {
+    content:""
+}
+.nx-icon--bolt:before {
+    content:""
+}
+.nx-icon--bolt-o:before {
+    content:""
+}
+.nx-icon--ellipsis-v:before {
+    content:""
+}
+.nx-icon--ellipsis-h:before {
+    content:""
+}
+.nx-icon--info-circle:before {
+    content:""
+}
+.nx-icon--info-circle-o:before {
+    content:""
+}
+.nx-icon--list:before {
+    content:""
+}
+.nx-icon--location:before {
+    content:""
+}
+.nx-icon--lock:before {
+    content:""
+}
+.nx-icon--lock-o:before {
+    content:""
+}
+.nx-icon--mail:before {
+    content:""
+}
+.nx-icon--mail-o:before {
+    content:""
+}
+.nx-icon--bars:before {
+    content:""
+}
+.nx-icon--telegram:before {
+    content:""
+}
+.nx-icon--user:before {
+    content:""
+}
+.nx-icon--user-o:before {
+    content:""
+}
+.nx-icon--user-business:before {
+    content:""
+}
+.nx-icon--user-business-o:before {
+    content:""
+}
+.nx-icon--users:before {
+    content:""
+}
+.nx-icon--users-o:before {
+    content:""
+}
+.nx-icon--print-o:before {
+    content:""
+}
+.nx-icon--search:before {
+    content:""
+}
+.nx-icon--setting:before {
+    content:""
+}
+.nx-icon--share:before {
+    content:""
+}
+.nx-icon--facebook:before {
+    content:""
+}
+.nx-icon--google-plus:before {
+    content:""
+}
+.nx-icon--twitter:before {
+    content:""
+}
+.nx-icon--instagram:before {
+    content:""
+}
+.nx-icon--facebook-circle:before {
+    content:""
+}
+.nx-icon--google-circle:before {
+    content:""
+}
+.nx-icon--twitter-circle:before {
+    content:""
+}
+.nx-icon--instagram-circle:before {
+    content:""
+}
+.nx-icon--mail-circle:before {
+    content:""
+}
+.nx-icon--youtube-circle:before {
+    content:""
+}
+.nx-icon--star:before {
+    content:""
+}
+.nx-icon--star-half-full:before {
+    content:""
+}
+.nx-icon--star-o:before {
+    content:""
+}
+.nx-icon--file-text:before {
+    content:""
+}
+.nx-icon--microphone:before {
+    content:""
+}
+.nx-icon--clock:before {
+    content:""
+}
+.nx-icon--clock-o:before {
+    content:""
+}
+.nx-icon--product-a-z:before {
+    content:""
+}
+.nx-icon--product-animal-cat:before {
+    content:""
+}
+.nx-icon--product-animal-dog:before {
+    content:""
+}
+.nx-icon--product-animal-horse:before {
+    content:""
+}
+.nx-icon--product-animal-hunting-deer:before {
+    content:""
+}
+.nx-icon--product-animal-paw:before {
+    content:""
+}
+.nx-icon--product-arrow-direction-path:before {
+    content:""
+}
+.nx-icon--product-at-sign:before {
+    content:""
+}
+.nx-icon--product-balance-scale:before {
+    content:""
+}
+.nx-icon--product-bank-monument-info:before {
+    content:""
+}
+.nx-icon--product-battery:before {
+    content:""
+}
+.nx-icon--speech-bubble-o:before {
+    content:""
+}
+.nx-icon--arrow-first:before {
+    content:""
+}
+.nx-icon--arrow-last:before {
+    content:""
+}
+.nx-icon--plus:before {
+    content:""
+}
+.nx-icon--minus:before {
+    content:""
+}
+.nx-icon--product-bed:before {
+    content:""
+}
+.nx-icon--product-bike:before {
+    content:""
+}
+.nx-icon--product-board-paper-note:before {
+    content:""
+}
+.nx-icon--product-book:before {
+    content:""
+}
+.nx-icon--product-brain:before {
+    content:""
+}
+.nx-icon--product-broken-glass:before {
+    content:""
+}
+.nx-icon--product-broken-window:before {
+    content:""
+}
+.nx-icon--product-broom-clean:before {
+    content:""
+}
+.nx-icon--product-buggy:before {
+    content:""
+}
+.nx-icon--product-building:before {
+    content:""
+}
+.nx-icon--product-bullhorn:before {
+    content:""
+}
+.nx-icon--product-calculator:before {
+    content:""
+}
+.nx-icon--product-calendar:before {
+    content:""
+}
+.nx-icon--product-camera:before {
+    content:""
+}
+.nx-icon--product-candle:before {
+    content:""
+}
+.nx-icon--product-car-accident:before {
+    content:""
+}
+.nx-icon--product-car-front:before {
+    content:""
+}
+.nx-icon--product-car-small:before {
+    content:""
+}
+.nx-icon--product-car-tacho-fast:before {
+    content:""
+}
+.nx-icon--product-car-trailer:before {
+    content:""
+}
+.nx-icon--product-car:before {
+    content:""
+}
+.nx-icon--product-caravan:before {
+    content:""
+}
+.nx-icon--product-certificate:before {
+    content:""
+}
+.nx-icon--product-check-paper:before {
+    content:""
+}
+.nx-icon--product-check:before {
+    content:""
+}
+.nx-icon--product-city:before {
+    content:""
+}
+.nx-icon--product-cleanup-trash:before {
+    content:""
+}
+.nx-icon--product-clock:before {
+    content:""
+}
+.nx-icon--product-cloud:before {
+    content:""
+}
+.nx-icon--product-cog-wheel:before {
+    content:""
+}
+.nx-icon--product-cog-wheels:before {
+    content:""
+}
+.nx-icon--product-coins-money:before {
+    content:""
+}
+.nx-icon--product-communication:before {
+    content:""
+}
+.nx-icon--product-computer:before {
+    content:""
+}
+.nx-icon--product-couch:before {
+    content:""
+}
+.nx-icon--product-credit-card:before {
+    content:""
+}
+.nx-icon--product-cross-triangle:before {
+    content:""
+}
+.nx-icon--product-cross:before {
+    content:""
+}
+.nx-icon--product-danger:before {
+    content:""
+}
+.nx-icon--product-data-exchange:before {
+    content:""
+}
+.nx-icon--product-diversity:before {
+    content:""
+}
+.nx-icon--product-dollar:before {
+    content:""
+}
+.nx-icon--product-door:before {
+    content:""
+}
+.nx-icon--product-electric-plug:before {
+    content:""
+}
+.nx-icon--product-excavator:before {
+    content:""
+}
+.nx-icon--product-expensive-objects-jewelery:before {
+    content:""
+}
+.nx-icon--product-eye-overview-sight:before {
+    content:""
+}
+.nx-icon--product-family:before {
+    content:""
+}
+.nx-icon--product-folder:before {
+    content:""
+}
+.nx-icon--product-guide-navigation:before {
+    content:""
+}
+.nx-icon--product-hand-click-info:before {
+    content:""
+}
+.nx-icon--product-hand-finger-pointing:before {
+    content:""
+}
+.nx-icon--product-hand-get-money:before {
+    content:""
+}
+.nx-icon--product-hand-thumbs-up:before {
+    content:""
+}
+.nx-icon--product-headset-support:before {
+    content:""
+}
+.nx-icon--product-health-bag-doctor:before {
+    content:""
+}
+.nx-icon--product-health-stethoscope:before {
+    content:""
+}
+.nx-icon--product-heart-employee-engagement:before {
+    content:""
+}
+.nx-icon--product-heart:before {
+    content:""
+}
+.nx-icon--product-helmet:before {
+    content:""
+}
+.nx-icon--product-help-information:before {
+    content:""
+}
+.nx-icon--product-help-question:before {
+    content:""
+}
+.nx-icon--product-help:before {
+    content:""
+}
+.nx-icon--product-home-office:before {
+    content:""
+}
+.nx-icon--product-hourglass:before {
+    content:""
+}
+.nx-icon--product-house-broken-window:before {
+    content:""
+}
+.nx-icon--product-house-fire:before {
+    content:""
+}
+.nx-icon--product-house-important:before {
+    content:""
+}
+.nx-icon--product-house-money:before {
+    content:""
+}
+.nx-icon--product-house-safe:before {
+    content:""
+}
+.nx-icon--product-house-water-damage:before {
+    content:""
+}
+.nx-icon--product-house:before {
+    content:""
+}
+.nx-icon--product-important-info:before {
+    content:""
+}
+.nx-icon--product-info-sheet:before {
+    content:""
+}
+.nx-icon--product-injury-plaster:before {
+    content:""
+}
+.nx-icon--product-job-processes:before {
+    content:""
+}
+.nx-icon--product-law:before {
+    content:""
+}
+.nx-icon--product-light-bulb-idea:before {
+    content:""
+}
+.nx-icon--product-locate-position:before {
+    content:""
+}
+.nx-icon--product-lock:before {
+    content:""
+}
+.nx-icon--product-mail:before {
+    content:""
+}
+.nx-icon--product-money-banknote:before {
+    content:""
+}
+.nx-icon--product-money-exchange:before {
+    content:""
+}
+.nx-icon--product-money-suitcase:before {
+    content:""
+}
+.nx-icon--product-motorcycle:before {
+    content:""
+}
+.nx-icon--product-mouse:before {
+    content:""
+}
+.nx-icon--product-newspaper:before {
+    content:""
+}
+.nx-icon--product-notebook:before {
+    content:""
+}
+.nx-icon--product-office-chair:before {
+    content:""
+}
+.nx-icon--product-pages-documents:before {
+    content:""
+}
+.nx-icon--product-paper-document:before {
+    content:""
+}
+.nx-icon--product-paper-lock:before {
+    content:""
+}
+.nx-icon--product-partner-handshake:before {
+    content:""
+}
+.nx-icon--product-pen:before {
+    content:""
+}
+.nx-icon--product-pension-rocker-chair:before {
+    content:""
+}
+.nx-icon--product-people-collaboration:before {
+    content:""
+}
+.nx-icon--product-people-communication-external:before {
+    content:""
+}
+.nx-icon--product-people-communication-internal:before {
+    content:""
+}
+.nx-icon--product-people-connect:before {
+    content:""
+}
+.nx-icon--product-person-heart-people-love:before {
+    content:""
+}
+.nx-icon--product-person:before {
+    content:""
+}
+.nx-icon--product-phone-call:before {
+    content:""
+}
+.nx-icon--product-plane:before {
+    content:""
+}
+.nx-icon--product-plus-minus:before {
+    content:""
+}
+.nx-icon--product-plus:before {
+    content:""
+}
+.nx-icon--product-present:before {
+    content:""
+}
+.nx-icon--product-puzzle-pieces:before {
+    content:""
+}
+.nx-icon--product-puzzle:before {
+    content:""
+}
+.nx-icon--product-radio:before {
+    content:""
+}
+.nx-icon--product-repair:before {
+    content:""
+}
+.nx-icon--product-rewards:before {
+    content:""
+}
+.nx-icon--product-rocket:before {
+    content:""
+}
+.nx-icon--product-save:before {
+    content:""
+}
+.nx-icon--product-search-document:before {
+    content:""
+}
+.nx-icon--product-search:before {
+    content:""
+}
+.nx-icon--product-share-chart:before {
+    content:""
+}
+.nx-icon--product-share-graph-arrow-down:before {
+    content:""
+}
+.nx-icon--product-share-graph-arrow-up:before {
+    content:""
+}
+.nx-icon--product-sharing-connect:before {
+    content:""
+}
+.nx-icon--product-shield-hand:before {
+    content:""
+}
+.nx-icon--product-shield:before {
+    content:""
+}
+.nx-icon--product-shopping-cart:before {
+    content:""
+}
+.nx-icon--product-smartphone:before {
+    content:""
+}
+.nx-icon--product-Soccer:before {
+    content:""
+}
+.nx-icon--product-social-media-facebook-messenger:before {
+    content:""
+}
+.nx-icon--product-social-media-facebook:before {
+    content:""
+}
+.nx-icon--product-social-media-linkedin:before {
+    content:""
+}
+.nx-icon--product-social-media-twitter:before {
+    content:""
+}
+.nx-icon--product-social-media-whatsapp:before {
+    content:""
+}
+.nx-icon--product-sport-sailing-ship:before {
+    content:""
+}
+.nx-icon--product-sport-trainer:before {
+    content:""
+}
+.nx-icon--product-sports-car:before {
+    content:""
+}
+.nx-icon--product-sports:before {
+    content:""
+}
+.nx-icon--product-star-event:before {
+    content:""
+}
+.nx-icon--product-stars-sky-galaxy:before {
+    content:""
+}
+.nx-icon--product-steering-wheel:before {
+    content:""
+}
+.nx-icon--product-stock-data-graph:before {
+    content:""
+}
+.nx-icon--product-stove-cooker:before {
+    content:""
+}
+.nx-icon--product-strategy:before {
+    content:""
+}
+.nx-icon--product-student-school-graduation:before {
+    content:""
+}
+.nx-icon--product-survey:before {
+    content:""
+}
+.nx-icon--product-SUV-car:before {
+    content:""
+}
+.nx-icon--product-tablet-ipad-apps:before {
+    content:""
+}
+.nx-icon--product-target:before {
+    content:""
+}
+.nx-icon--product-thief:before {
+    content:""
+}
+.nx-icon--product-to-do-list:before {
+    content:""
+}
+.nx-icon--product-tooth:before {
+    content:""
+}
+.nx-icon--product-tv:before {
+    content:""
+}
+.nx-icon--product-umbrella-protection:before {
+    content:""
+}
+.nx-icon--product-video-camera:before {
+    content:""
+}
+.nx-icon--product-wall-balance:before {
+    content:""
+}
+.nx-icon--product-washer:before {
+    content:""
+}
+.nx-icon--product-water-tap:before {
+    content:""
+}
+.nx-icon--product-watering-can:before {
+    content:""
+}
+.nx-icon--product-wheelchair:before {
+    content:""
+}
+.nx-icon--product-world-globe:before {
+    content:""
+}
+.nx-icon--product-world-wide-we:before {
+    content:""
+}
+.nx-icon--arrow-download:before {
+    content:""
+}
+.nx-icon--phone:before {
+    content:""
+}
+.nx-icon--youtube:before {
+    content:""
+}
+.nx-icon--whatsapp:before {
+    content:""
+}
+.nx-icon--youtube-circle-play:before {
+    content:""
+}
+.nx-icon--linkedin-circle:before {
+    content:""
+}
+.nx-icon--file-document:before {
+    content:""
+}
+.nx-icon--eps-text:before {
+    content:""
+}
+.nx-icon--file-flag:before {
+    content:""
+}
+.nx-icon--img-text:before {
+    content:""
+}
+.nx-icon--play:before {
+    content:""
+}
+.nx-icon--dot:before {
+    content:""
+}
+.nx-icon--jpg-text:before {
+    content:""
+}
+.nx-icon--mp3-text:before {
+    content:""
+}
+.nx-icon--pdf-text:before {
+    content:""
+}
+.nx-icon--pod-text:before {
+    content:""
+}
+.nx-icon--ppt-text:before {
+    content:""
+}
+.nx-icon--tiff-text:before {
+    content:""
+}
+.nx-icon--txt-text:before {
+    content:""
+}
+.nx-icon--vid-text:before {
+    content:""
+}
+.nx-icon--xls-text:before {
+    content:""
+}
+.nx-icon--eps:before {
+    content:""
+}
+.nx-icon--img:before {
+    content:""
+}
+.nx-icon--jpg:before {
+    content:""
+}
+.nx-icon--mp3:before {
+    content:""
+}
+.nx-icon--pdf:before {
+    content:""
+}
+.nx-icon--pod:before {
+    content:""
+}
+.nx-icon--ppt:before {
+    content:""
+}
+.nx-icon--tiff:before {
+    content:""
+}
+.nx-icon--txt:before {
+    content:""
+}
+.nx-icon--vid:before {
+    content:""
+}
+.nx-icon--xls:before {
+    content:""
+}
+.nx-icon--trash-o:before {
+    content:""
+}
+.nx-icon--bell-o:before {
+    content:""
+}
+.nx-icon--bell-off-o:before {
+    content:""
+}
+.nx-icon--bell-off:before {
+    content:""
+}
+.nx-icon--bell:before {
+    content:""
+}
+.nx-icon--bookmark:before {
+    content:""
+}
+.nx-icon--calendar-date-check-o:before {
+    content:""
+}
+.nx-icon--calendar-date-check:before {
+    content:""
+}
+.nx-icon--calendar-default:before {
+    content:""
+}
+.nx-icon--calendar-reminder-o:before {
+    content:""
+}
+.nx-icon--calendar-reminder:before {
+    content:""
+}
+.nx-icon--chat-o:before {
+    content:""
+}
+.nx-icon--chat:before {
+    content:""
+}
+.nx-icon--chevron-down-small:before {
+    content:""
+}
+.nx-icon--chevron-left-circle-o:before {
+    content:""
+}
+.nx-icon--chevron-left-circle:before {
+    content:""
+}
+.nx-icon--chevron-left-small:before {
+    content:""
+}
+.nx-icon--chevron-right-circle-o:before {
+    content:""
+}
+.nx-icon--chevron-right-circle:before {
+    content:""
+}
+.nx-icon--chevron-right-small:before {
+    content:""
+}
+.nx-icon--chevron-up-small:before {
+    content:""
+}
+.nx-icon--close-circle-o:before {
+    content:""
+}
+.nx-icon--credit-card:before {
+    content:""
+}
+.nx-icon--duplicate:before {
+    content:""
+}
+.nx-icon--e-mail-read-o:before {
+    content:""
+}
+.nx-icon--e-mail-read:before {
+    content:""
+}
+.nx-icon--edit:before {
+    content:""
+}
+.nx-icon--exclamation-triangle-o:before {
+    content:""
+}
+.nx-icon--export-and-share:before {
+    content:""
+}
+.nx-icon--filter:before {
+    content:""
+}
+.nx-icon--in-progress:before {
+    content:""
+}
+.nx-icon--launch:before {
+    content:""
+}
+.nx-icon--location-o:before {
+    content:""
+}
+.nx-icon--lock-unlock-o:before {
+    content:""
+}
+.nx-icon--lock-unlock:before {
+    content:""
+}
+.nx-icon--microphone-default:before {
+    content:""
+}
+.nx-icon--microphone-mute-o:before {
+    content:""
+}
+.nx-icon--microphone-mute:before {
+    content:""
+}
+.nx-icon--minus-circle-o:before {
+    content:""
+}
+.nx-icon--minus-circle:before {
+    content:""
+}
+.nx-icon--password-hide-o:before {
+    content:""
+}
+.nx-icon--password-hide:before {
+    content:""
+}
+.nx-icon--password-show-o:before {
+    content:""
+}
+.nx-icon--password-show:before {
+    content:""
+}
+.nx-icon--pause:before {
+    content:""
+}
+.nx-icon--pen:before {
+    content:""
+}
+.nx-icon--phone-chat-o:before {
+    content:""
+}
+.nx-icon--phone-chat:before {
+    content:""
+}
+.nx-icon--plus-circle-o:before {
+    content:""
+}
+.nx-icon--plus-circle:before {
+    content:""
+}
+.nx-icon--popout:before {
+    content:""
+}
+.nx-icon--print:before {
+    content:""
+}
+.nx-icon--refresh:before {
+    content:""
+}
+.nx-icon--sentiment-dissatisfied:before {
+    content:""
+}
+.nx-icon--sentiment-neutral:before {
+    content:""
+}
+.nx-icon--sentiment-satisfied:before {
+    content:""
+}
+.nx-icon--sentiment-very-dissatisfied:before {
+    content:""
+}
+.nx-icon--sentiment-very-satisfied:before {
+    content:""
+}
+.nx-icon--set-timer:before {
+    content:""
+}
+.nx-icon--setting-o:before {
+    content:""
+}
+.nx-icon--slider-graph-o:before {
+    content:""
+}
+.nx-icon--speech-bubble-dots-o:before {
+    content:""
+}
+.nx-icon--speech-bubble-dots:before {
+    content:""
+}
+.nx-icon--speech-bubble:before {
+    content:""
+}
+.nx-icon--card-o:before {
+    content:""
+}
+.nx-icon--cobrowsing-o:before {
+    content:""
+}
+.nx-icon--linkedin:before {
+    content:""
+}
+.nx-icon--messenger-circle:before {
+    content:""
+}
+.nx-icon--messenger:before {
+    content:""
+}
+.nx-icon--whatsapp-circle:before {
+    content:""
+}
+.nx-icon--xing-circle:before {
+    content:""
+}
+.nx-icon--xing:before {
+    content:""
+}
+.nx-icon--product-bereaved-dependent-pension:before {
+    content:""
+}
+.nx-icon--product-car-mobility:before {
+    content:""
+}
+.nx-icon--product-care-insurance:before {
+    content:""
+}
+.nx-icon--product-fortune:before {
+    content:""
+}
+.nx-icon--product-health:before {
+    content:""
+}
+.nx-icon--product-income-precaution:before {
+    content:""
+}
+.nx-icon--product-mobility:before {
+    content:""
+}
+.nx-icon--product-pet-health-insurance:before {
+    content:""
+}
+.nx-icon--product-pet-owner-liability:before {
+    content:""
+}
+.nx-icon--product-precaution:before {
+    content:""
+}
+.nx-icon--product-private-pension:before {
+    content:""
+}
+.nx-icon--product-travel:before {
+    content:""
+}
+.nx-icon--save-o:before {
+    content:""
+}
+.nx-icon--back:before {
+    content:""
+}
+.nx-icon--product-apartment-building:before {
+    content:""
+}
+.nx-icon--product-garage:before {
+    content:""
+}
+.nx-icon--product-hydro-power:before {
+    content:""
+}
+.nx-icon--product-keys:before {
+    content:""
+}
+.nx-icon--product-laptop:before {
+    content:""
+}
+.nx-icon--product-nature-leaf:before {
+    content:""
+}
+.nx-icon--product-power-pylon:before {
+    content:""
+}
+.nx-icon--product-solar-power-modules:before {
+    content:""
+}
+.nx-icon--product-telematic-car-front:before {
+    content:""
+}
+.nx-icon--product-telematic-car-side:before {
+    content:""
+}
+.nx-icon--product-thermal-power-plant:before {
+    content:""
+}
+.nx-icon--product-thermometer:before {
+    content:""
+}
+.nx-icon--product-thunderstorm:before {
+    content:""
+}
+.nx-icon--product-tires-wheel:before {
+    content:""
+}
+.nx-icon--product-truck:before {
+    content:""
+}
+.nx-icon--product-voice-of-the-customer:before {
+    content:""
+}
+.nx-icon--product-wind-turbine-offshore:before {
+    content:""
+}
+.nx-icon--product-wind-turbine-onshore:before {
+    content:""
+}
+.nx-icon--sidebar-left:before {
+    content:""
+}
+.nx-icon--sidebar-right:before {
+    content:""
+}
+.nx-icon--doc:before {
+    content:""
+}
+.nx-icon--doc-text:before {
+    content:""
+}
+.nx-icon--product-locate-position-f:before {
+    content:""
+}
+.nx-icon--product-danger-f:before {
+    content:""
+}
+.nx-icon--product-coins-money-f:before {
+    content:""
+}
+.nx-icon--product-check-paper-f:before {
+    content:""
+}
+.nx-icon--speaker-off-o:before {
+    content:""
+}
+.nx-icon--speaker-off:before {
+    content:""
+}
+.nx-icon--speaker-on-o:before {
+    content:""
+}
+.nx-icon--speaker-on:before {
+    content:""
+}
+.nx-icon--help-question-f:before {
+    content:""
+}
+.nx-icon--voice-of-the-customer-f:before {
+    content:""
+}
+.nx-icon--product-blog:before {
+    content:""
+}
+.nx-icon--product-fire:before {
+    content:""
+}
+.nx-icon--product-fork-lift-truck:before {
+    content:""
+}
+.nx-icon--product-music:before {
+    content:""
+}
+.nx-icon--product-podcast:before {
+    content:""
+}
+.nx-icon--laptop-cog-wheel:before {
+    content:""
+}
+.nx-icon--board-share-graph:before {
+    content:""
+}
+.nx-icon--trees:before {
+    content:""
+}
+.nx-icon--hand-tray:before {
+    content:""
+}
+.nx-icon--tv-world-globe:before {
+    content:""
+}
+.nx-icon--helmet-construction:before {
+    content:""
+}
+.nx-icon--manager:before {
+    content:""
+}
+.nx-icon--tractor:before {
+    content:""
+}
+.nx-icon--skyscraper:before {
+    content:""
+}
+.nx-icon--hand-cog-wheel:before {
+    content:""
+}
+.nx-icon--fountain-pen:before {
+    content:""
+}
+.nx-icon--certificate-papers:before {
+    content:""
+}
+.nx-icon--grapes:before {
+    content:""
+}
+.nx-icon--product-media:before {
+    content:""
+}
+.nx-icon--product-broken-mirror:before {
+    content:""
+}
+.nx-icon--product-compass:before {
+    content:""
+}
+.nx-icon--product-health-paw:before {
+    content:""
+}
+.nx-icon--product-law-internet:before {
+    content:""
+}
+.nx-icon--product-law-job:before {
+    content:""
+}
+.nx-icon--product-law-key:before {
+    content:""
+}
+.nx-icon--product-law-traffic:before {
+    content:""
+}
+.nx-icon--product-legal-protection:before {
+    content:""
+}
+.nx-icon--product-oil-tank:before {
+    content:""
+}
+.nx-icon--product-shield-house:before {
+    content:""
+}
+.nx-icon--product-shield-key:before {
+    content:""
+}
+.nx-icon--product-shield-paw:before {
+    content:""
+}
+.nx-icon--chatbot-default-o:before {
+    content:""
+}
+.nx-icon--chatbot-joy-o:before {
+    content:"";
+}
+.nx-icon--chatbot-slightsmile-o:before {
+    content:""
+}
+.nx-icon--chatbot-think-o:before {
+    content:""
+}
+.nx-icon--chatbot-thrilled-o:before {
+    content:""
+}
+.nx-icon--product-car-accident-abroad:before {
+    content:""
+}
+.nx-icon--switch:before {
+    content:""
+}
