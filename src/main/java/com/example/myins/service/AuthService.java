@@ -1,7 +1,9 @@
 package com.example.myins.service;
 
 import com.example.myins.model.dto.UserRegisterFormDto;
+import com.example.myins.model.entity.Role;
 import com.example.myins.model.entity.UserEntity;
+import com.example.myins.model.enums.UserRole;
 import com.example.myins.repository.RoleRepo;
 import com.example.myins.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +20,6 @@ public class AuthService {
 
     @Autowired
     public AuthService(UserRepo userRepo,
-                       RoleRepo roleRepo,
                        PasswordEncoder passwordEncoder,
                        @Value("${myIns.admin.defaultpass}") String defaultAdminPass) {
         this.userRepo = userRepo;
@@ -28,9 +29,8 @@ public class AuthService {
 
     public void registerUser(UserRegisterFormDto registrationDTO) {
         UserEntity userEntity = new UserEntity();
-                userEntity.setUsername(registrationDTO.getUsername());
-                userEntity.setPhone(registrationDTO.getPhone());
                 userEntity.setEmail(registrationDTO.getEmail());
+                userEntity.setPhone(registrationDTO.getPhone());
                 userEntity.setPassword(passwordEncoder.encode(registrationDTO.getPassword()));
 
 //        UserEntity userEntity = new UserEntity()

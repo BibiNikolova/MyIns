@@ -27,13 +27,4 @@ public class UserLoginController {
         return "redirect:/login";
     }
 
-
-//        return "redirect:client-page";
-
-
-
-
-
-
-
 }

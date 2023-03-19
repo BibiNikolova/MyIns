@@ -93,8 +93,10 @@
                         <div id="kc-content-wrapper">
 
                             <form id="kc-register-form" class="form-horizontal"
-                                  action="https://myallianz-sso.allianz.bg/auth/realms/azbg-customer-portal/login-actions/registration?session_code=YrvJoUcDqGH0gdsH3SQn8ZS5V3U95ytFyLCkFaSm-dM&amp;execution=fb44cfbf-9b9e-4100-b7d3-2bcc235976e9&amp;client_id=customer-portal&amp;tab_id=vGO_GME1sDs"
-                                  method="post"
+                                  th:action="@{/users/login/register}"
+                                  th:method="post"
+                                  th:object="${userRegisterFormDto}"
+
                                   onsubmit="return validateForm() &amp;&amp; validatePhone()">
 
                                 <div class="form-group ">
