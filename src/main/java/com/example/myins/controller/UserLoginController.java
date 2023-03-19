@@ -14,7 +14,7 @@ public class UserLoginController {
 
     @GetMapping("/login")
     public String login() {
-        return "1";
+        return "login";
     }
 
     @PostMapping("/login-error")
