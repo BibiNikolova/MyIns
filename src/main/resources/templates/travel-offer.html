@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="bg" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+      data-whatinput="initial" data-whatintent="mouse" class=" whatinput-types-initial">
+<head th:replace="~{fragments/index-head}"></head>
+
+<body class="homepage defaultpage page basicpage">
+
+<div class="root responsivegrid">
+
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+
+        <div class="header-container parsys aem-GridColumn aem-GridColumn--default--12">
+
+            <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+
+                <div class="header parbase aem-GridColumn aem-GridColumn--default--12">
+
+                    <script>
+                        var OMCORE = OMCORE || {};
+                        OMCORE.search = OMCORE.search || {};
+                        OMCORE.search.searchResultPagePath = "\/bg_BG\/search";
+                        OMCORE.storePreferredSelection = "true";
+                    </script>
+                    <div class="c-header-spacer no-metabar-spacer c-header-spacer--text-descriptor c-header-mobile__service-link--visible"
+                         style="height: 192px;">
+
+                        <!--header-->
+                        <!--Bibi:Navigation Car, Home, Life, Travel-->
+                        <header th:replace="~{fragments/index-header}"></header>
+                        <!--Bibi:End of navigation-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Main Tabs-->
+        <div class="wrapper container">
+            <div class="l-grid__column-medium-12 offset-medium-0">
+                <div class="l-container l-container--full-width  t-bg-"
+                     style="display:block; background-color:#F5F3ED;;;
+               --bullet-color:#F5F3ED;">
+                    <div class="l-grid l-grid--max-width">
+                        <div class="c-wrapper  ">
+                            <div class="multi-column-grid">
+                                <div class="multi-grid-columnLayout-sameHeights">
+                                    <div class="l-grid__row justify-content-center">
+                                        <!--  Top line Displaying the header information -->
+                                        <div class="l-grid__column-medium-12 l-grid__column-large-8 c-component-header__pre-headline-wrapper">
+                                            <h4 class="c-heading   c-benefit-communication-tile__subheading c-component-header__pre-headline u-text-center c-link--capitalize u-text-hyphen-auto">
+                                                Нашите предложения
+                                            </h4>
+                                        </div>
+                                        <div class="l-grid__column-medium-12 l-grid__column-large-10">
+
+                                            <h2 class="c-heading  c-heading--section c-benefit-communication-tile__heading u-text-center c-link--capitalize u-text-hyphen-auto">
+
+                                                От какво се нуждаете днес?
+
+                                            </h2>
+
+                                        </div>
+                                        <!--  end here -->
+                                    </div>
+
+                                    <div class="l-grid__row">
+                                        <!--                                                Car-->
+
+                                        <div class="column l-grid__column-large-3 l-grid__column-medium-6 l-grid__column-small-12 ">
+
+                                            <div class="carouselteaser">
+
+                                                <div class="c-teaser c-teaser--vertical-66-33"
+                                                     style="background-color:#FFFFFF;">
+
+                                                    <a class="c-teaser__link-area"
+                                                       href="/myCar">
+
+                                                        <picture
+                                                                class="cmp-image c-image  c-teaser__image ">
+
+                                                            <img th:src="@{img/automobile.jpeg}"
+                                                                 srcset="/img/automobile.jpeg 320w,
+                                                                         /img/automobile.jpeg 640w,
+                                                                         /img/automobile.jpeg 1280w,
+                                                                         /img/automobile.jpeg 1920w,
+                                                                         /img/automobile.jpeg 3360w"
+                                                                 data-large="/img/automobile.jpeg 320w,/img/automobile.jpeg 640w,/img/automobile.jpeg 1280w,/img/automobile.jpeg 1920w,/img/automobile.jpeg 3360w"
+                                                                 alt=""
+                                                                 sizes="(max-width: 767px) 600px, 500px"
+                                                                 loading="lazy"
+                                                                 width="1280"
+                                                                 height="853"
+                                                                 data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-0-par/carouselteaser/image"
+                                                                 data-component-name="Automobile.jpg"
+                                                                 data-component-type="Image"
+                                                                 class="c-image__img c-teaser__image-img">
+
+                                                        </picture>
+
+                                                    </a>
+
+                                                    <div class="c-teaser__content"
+                                                         style="background-color:#FFFFFF;">
+                                                        <a class="c-teaser__link-area"
+                                                           href="/myCar">
+
+                                                            <h3 class="c-heading c-heading--subsection-medium c-teaser__headline"
+                                                                style="color: #414141">
+                                                                Автомобил</h3>
+                                                            <p class="c-copy c-teaser__text u-text-hyphen-manual"
+                                                               style="color:#414141">
+                                                                #ОтДнесЗаУтре<br>
+                                                                Пълна
+                                                                сигурност
+                                                                на
+                                                                пътя<br>
+
+                                                            </p>
+                                                        </a>
+
+                                                        <div class="c-teaser__link  ">
+
+                                                            <div>
+                                                                <a href="/myCar"
+                                                                   aria-label="Повече"
+                                                                   class=" c-button c-button--link c-button-link-center-align "
+                                                                   data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-0-par/carouselteaser"
+                                                                   data-component-name="Повече"
+                                                                   data-component-type="Button">
+
+                                                                    <span class="u-text-hyphen-manual">Повече</span>
+
+                                                                </a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                        <!--                                                Home-->
+
+                                        <div class="column l-grid__column-large-3 l-grid__column-medium-6 l-grid__column-small-12 ">
+
+
+                                            <div class="carouselteaser">
+
+
+                                                <div class="c-teaser c-teaser--vertical-66-33"
+                                                     style="background-color:#FFFFFF;">
+
+                                                    <a class="c-teaser__link-area"
+                                                       href="/myHome">
+
+
+                                                        <picture
+                                                                class="cmp-image c-image  c-teaser__image ">
+
+                                                            <source srcset="/img/my-home.png 320w, /img/my-home.png 640w,/img/my-home.png 768w, /img/my-home.png 1280w, /img/my-home.png 1920w, /img/my-home.png 3360w"
+                                                                    media="(max-width: 767px)">
+
+                                                            <img th:src="@{/img/my-home.png}"
+                                                                 srcset="/img/my-home.png 320w, /img/my-home.png 640w,/img/my-home.png 768w, /img/my-home.png 1280w, /img/my-home.png 1920w, /img/my-home.png 3360w"
+                                                                 data-large="/img/my-home.png 320w, /img/my-home.png 640w,/img/my-home.png 768w, /img/my-home.png 1280w, /img/my-home.png 1920w, /img/my-home.png 3360w"
+                                                                 alt=""
+                                                                 sizes="(max-width: 767px) 600px, 500px"
+                                                                 loading="lazy"
+                                                                 width="600"
+                                                                 height="300"
+                                                                 data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-1-par/carouselteaser_copy/image"
+                                                                 data-component-name="my_home.png"
+                                                                 data-component-type="Image"
+                                                                 class="c-image__img c-teaser__image-img">
+
+                                                        </picture>
+
+
+                                                    </a>
+
+                                                    <div class="c-teaser__content"
+                                                         style="background-color:#FFFFFF;">
+                                                        <a class="c-teaser__link-area"
+                                                           href="/myHome">
+
+                                                            <h3 class="c-heading c-heading--subsection-medium c-teaser__headline"
+                                                                style="color: #414141">
+                                                                Моят
+                                                                дом</h3>
+                                                            <p class="c-copy c-teaser__text u-text-hyphen-manual"
+                                                               style="color:#414141">
+                                                                Твоят
+                                                                дом,
+                                                                имущество,
+                                                                семейство<br>
+                                                                Твоят
+                                                                начин да
+                                                                си
+                                                                сигурeн
+                                                            </p>
+                                                        </a>
+
+                                                        <div class="c-teaser__link  ">
+
+                                                            <div>
+                                                                <a href="/myHome"
+                                                                   aria-label="Повече"
+                                                                   class=" c-button       c-button--link c-button-link-center-align "
+                                                                   data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-1-par/carouselteaser_copy"
+                                                                   data-component-name="Повече"
+                                                                   data-component-type="Button">
+
+
+                                                                    <span class="u-text-hyphen-manual">Повече</span>
+
+
+                                                                </a>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                        <!--                                                Life-->
+
+                                        <div class="column l-grid__column-large-3 l-grid__column-medium-6 l-grid__column-small-12 ">
+
+                                            <div class="carouselteaser">
+
+                                                <div class="c-teaser c-teaser--vertical-66-33"
+                                                     style="background-color:#FFFFFF;">
+
+                                                    <a class="c-teaser__link-area"
+                                                       href="/lifeAndHealth">
+
+                                                        <picture
+                                                                class="cmp-image c-image  c-teaser__image ">
+
+                                                            <img th:src="@{/img/lifeAndHealth.jpeg}"
+                                                                 srcset="/img/lifeAndHealth.jpeg 320w,/img/lifeAndHealth.jpeg  640w,/img/lifeAndHealth.jpeg 1280w,/img/lifeAndHealth.jpeg 1920w,/img/lifeAndHealth.jpeg 3360w"
+                                                                 data-large="/img/lifeAndHealth.jpeg 320w,/img/lifeAndHealth.jpeg  640w,/img/lifeAndHealth.jpeg 1280w,/img/lifeAndHealth.jpeg 1920w,/img/lifeAndHealth.jpeg 3360w"
+                                                                 alt=""
+                                                                 sizes="(max-width: 767px) 600px, 500px"
+                                                                 loading="lazy"
+                                                                 width="4261"
+                                                                 height="2822"
+                                                                 data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-2-par/carouselteaser_66839/image"
+                                                                 data-component-name="important_info.jpg"
+                                                                 data-component-type="Image"
+                                                                 class="c-image__img c-teaser__image-img">
+
+                                                        </picture>
+
+                                                    </a>
+
+                                                    <div class="c-teaser__content"
+                                                         style="background-color:#FFFFFF;">
+                                                        <a class="c-teaser__link-area"
+                                                           href="/lifeAndHealth">
+
+                                                            <h3 class="c-heading c-heading--subsection-medium c-teaser__headline"
+                                                                style="color: #414141">
+                                                                Здраве и
+                                                                живот</h3>
+                                                            <p class="c-copy c-teaser__text u-text-hyphen-manual"
+                                                               style="color:#414141">
+                                                                Oбичаш
+                                                                хората
+                                                                до себе
+                                                                си<br>
+                                                                Oбичаш
+                                                                себе си
+
+                                                            </p>
+                                                        </a>
+
+                                                        <div class="c-teaser__link  ">
+
+                                                            <div>
+                                                                <a href="/lifeAndHealth"
+                                                                   aria-label="Повече"
+                                                                   class=" c-button c-button--link c-button-link-center-align "
+                                                                   data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-2-par/carouselteaser_66839"
+                                                                   data-component-name="Повече"
+                                                                   data-component-type="Button">
+
+                                                                    <span class="u-text-hyphen-manual">Повече</span>
+
+                                                                </a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!--                                                Travel-->
+
+                                        <div class="column l-grid__column-large-3 l-grid__column-medium-6 l-grid__column-small-12 ">
+
+                                            <div class="carouselteaser">
+
+                                                <div class="c-teaser c-teaser--vertical-66-33"
+                                                     style="background-color:#FFFFFF;">
+
+                                                    <a class="c-teaser__link-area"
+                                                       href="/travel">
+
+                                                        <picture
+                                                                class="cmp-image c-image  c-teaser__image ">
+
+                                                            <img th:src="@{/img/travel.jpeg}"
+                                                                 srcset="/img/travel.jpeg 320w,/img/travel.jpeg  640w,/img/travel.jpeg  1280w,/img/travel.jpeg 1920w,/img/travel.jpeg 3360w"
+                                                                 data-large="/img/travel.jpeg 320w,/img/travel.jpeg  640w,/img/travel.jpeg  1280w,/img/travel.jpeg 1920w,/img/travel.jpeg 3360w"
+                                                                 alt=""
+                                                                 sizes="(max-width: 767px) 600px, 500px"
+                                                                 loading="lazy"
+                                                                 width="352"
+                                                                 height="196"
+                                                                 data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-3-par/carouselteaser_copy_/image"
+                                                                 data-component-name="Travel.jpeg"
+                                                                 data-component-type="Image"
+                                                                 class="c-image__img c-teaser__image-img">
+
+                                                        </picture>
+
+                                                    </a>
+
+                                                    <div class="c-teaser__content"
+                                                         style="background-color:#FFFFFF;">
+                                                        <a class="c-teaser__link-area"
+                                                           href="/travel">
+
+                                                            <h3 class="c-heading c-heading--subsection-medium c-teaser__headline"
+                                                                style="color: #414141">
+                                                                Пътуване</h3>
+                                                            <p class="c-copy c-teaser__text u-text-hyphen-manual"
+                                                               style="color:#414141">
+                                                                Любопитството
+                                                                е моят
+                                                                екскурзовод<br>
+
+                                                            </p>
+                                                        </a>
+
+                                                        <div class="c-teaser__link  ">
+
+                                                            <div>
+                                                                <a href="/travel"
+                                                                   aria-label="ПОВЕЧЕ"
+                                                                   class=" c-button c-button--link c-button-link-center-align "
+                                                                   data-component-id="root/parsys/wrapper_copy_copy/wrapper/multi_column_grid/grid-3-par/carouselteaser_copy_"
+                                                                   data-component-name="ПОВЕЧЕ"
+                                                                   data-component-type="Button">
+
+                                                                    <span class="u-text-hyphen-manual">ПОВЕЧЕ</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--            Social media-->
+
+        <div th:replace="~{fragments/social-media}"></div>
+
+        <!--        Footer-->
+        <footer th:replace="~{/fragments/footer}"></footer>
+
+        </main>
+    </div>
+</div>
+</body>
+</html>

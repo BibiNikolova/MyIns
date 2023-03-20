@@ -1,69 +1,14 @@
 <!DOCTYPE html>
 <html lang="bg" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
->
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head th:replace="~{fragments/login-register-head}"></head>
 
 <body class="">
-<div class="top-line">
-    <div class="top-left">
-        <div class="css-1vs2kf0">
-            <div style="transform: scale(1);">
-                <svg width="100" height="58" viewBox="0 0 350 229.323957761306"
-                     class="css-1j8o68f">
-                    <defs id="SvgjsDefs3106">
-                        <linearGradient id="SvgjsLinearGradient3113">
-                            <stop id="SvgjsStop3114" stop-color="#2d388a" offset="0"></stop>
-                            <stop id="SvgjsStop3115" stop-color="#00aeef" offset="1"></stop>
-                        </linearGradient>
-                        <linearGradient id="SvgjsLinearGradient3116">
-                            <stop id="SvgjsStop3117" stop-color="#2d388a" offset="0"></stop>
-                            <stop id="SvgjsStop3118" stop-color="#00aeef" offset="1"></stop>
-                        </linearGradient>
-                    </defs>
-                    <g id="SvgjsG3107" featurekey="9id2mP-0"
-                       transform="matrix(5.256785248338906,0,0,5.256785248338906,91.1993138249297,-10.513565483416734)"
-                       fill="url(#SvgjsLinearGradient3113)">
-                        <path xmlns="http://www.w3.org/2000/svg"
-                              d="M8.721,14.294c2.545-0.357,3.465,2.26,5.783,7.689c0.159,0.378,0.464,0.397,0.677,0.047  c1.533-2.522,8.655-10.965,13.066-16.624c0.942-1.212,0.653-1.581-0.595-0.688C22.655,8.3,16.927,14.254,15.623,15.633  c-0.152,0.16-0.341,0.125-0.43-0.077c-2.491-5.655-5.784-3.045-6.781-1.683C8.17,14.204,8.317,14.353,8.721,14.294z"></path>
-                        <path xmlns="http://www.w3.org/2000/svg"
-                              d="M24.067,13.412c-0.016,0.021-0.052,0.215-0.083,0.434c-0.687,4.872-2.75,9.044-8.811,13.491  c-0.178,0.131-0.47,0.131-0.647,0c-8.021-5.886-9.05-11.284-9.139-18.471c-0.002-0.222,0.17-0.44,0.385-0.493  c3.939-0.976,7.189-2.786,8.74-3.753c0.188-0.117,0.487-0.117,0.675,0c1.146,0.713,3.224,1.885,5.818,2.844  c0.207,0.076,0.509,0.016,0.674-0.131c0.433-0.385,0.871-0.768,1.315-1.146c0.168-0.144,0.133-0.31-0.078-0.377  c-4.247-1.359-7.393-3.58-7.431-3.606c-0.38-0.272-0.892-0.272-1.272,0c-0.045,0.032-4.582,3.243-10.13,4.305  C3.568,6.606,3.196,7.058,3.196,7.581c0,8.266,0.813,15.151,11.032,22.225C14.415,29.936,14.632,30,14.85,30  s0.434-0.064,0.622-0.194c8.84-6.118,10.64-12.098,10.965-18.95c0.01-0.221-0.096-0.261-0.234-0.088  c-0.697,0.865-1.404,1.74-2.105,2.607C24.087,13.387,24.077,13.399,24.067,13.412z"></path>
-                    </g>
-                    <g id="SvgjsG3108" featurekey="zfl5BF-0"
-                       transform="matrix(2.519435679622981,0,0,2.519435679622981,-1.6628277647960665,149.36395144399967)"
-                       fill="#111111">
-                        <path d="M2.74 20 l-2.08 0 l3.68 -12.78 l3.02 0 l3.7 12.78 l-2.1 0 l-1.08 -3.76 l-4.36 1.02 z M5.86 9.18 l-1.7 5.88 l3.16 -0.76 z M20.6 20 c-0.08 -1.8 -1.22 -2.92 -2.86 -4.28 l-2.76 0 l0 4.28 l-2 0 l0 -12.78 l1.38 0 l0.62 0 l3.48 0 c0.56 0 1.08 0.1 1.6 0.28 c0.5 0.2 0.98 0.5 1.36 0.86 c0.86 0.8 1.34 1.9 1.34 3.1 c0 1.22 -0.48 2.32 -1.34 3.1 c-0.32 0.32 -0.7 0.56 -1.1 0.76 c0.34 0.34 0.66 0.68 0.96 1.08 c0.84 1.08 1.26 2.24 1.32 3.52 l0 0.08 l-2 0 l0 0 z M14.98 13.719999999999999 l3.48 0 c1.12 0 2.3 -0.8 2.3 -2.26 s-1.18 -2.24 -2.3 -2.24 l-3.48 0 l0 4.5 z M26.16 20 l-2.02 0 l1.32 -12.8 l3.28 0 l2.46 9.86 l2.46 -9.86 l3.28 0 l1.32 12.8 l-2.02 0 l-1.08 -10.62 l-2.8 10.62 l-2.32 0 l-2.78 -10.62 z M49.52 8.9 c0.92 1.14 1.4 2.72 1.4 4.7 s-0.48 3.56 -1.4 4.7 c-0.5 0.62 -1.14 1.08 -1.88 1.4 s-1.58 0.48 -2.52 0.48 s-1.78 -0.16 -2.52 -0.48 s-1.38 -0.78 -1.88 -1.4 c-0.92 -1.14 -1.4 -2.72 -1.4 -4.7 s0.48 -3.56 1.4 -4.7 c0.5 -0.62 1.14 -1.1 1.88 -1.42 s1.58 -0.48 2.52 -0.48 s1.78 0.16 2.52 0.48 s1.38 0.8 1.88 1.42 z M47.980000000000004 17.04 c0.62 -0.76 0.94 -1.96 0.94 -3.44 c0 -1.5 -0.32 -2.68 -0.94 -3.44 s-1.58 -1.16 -2.86 -1.16 c-1.26 0 -2.22 0.4 -2.84 1.16 s-0.96 1.94 -0.96 3.44 c0 1.48 0.34 2.68 0.96 3.44 s1.58 1.14 2.84 1.14 c1.28 0 2.24 -0.38 2.86 -1.14 z M57.580000000000005 20.44 c-1.32 0 -2.56 -0.5 -3.46 -1.4 c-0.86 -0.84 -1.34 -1.96 -1.34 -3.08 l0 -8.76 l2 0 l0 8.76 c0 1.2 1.08 2.48 2.8 2.48 c1.74 0 2.8 -1.28 2.8 -2.48 l0 -8.76 l2 0 l0 8.76 c0 1.12 -0.48 2.24 -1.32 3.08 c-0.9 0.9 -2.14 1.4 -3.48 1.4 z M72.38000000000001 20 c-0.08 -1.8 -1.22 -2.92 -2.86 -4.28 l-2.76 0 l0 4.28 l-2 0 l0 -12.78 l1.38 0 l0.62 0 l3.48 0 c0.56 0 1.08 0.1 1.6 0.28 c0.5 0.2 0.98 0.5 1.36 0.86 c0.86 0.8 1.34 1.9 1.34 3.1 c0 1.22 -0.48 2.32 -1.34 3.1 c-0.32 0.32 -0.7 0.56 -1.1 0.76 c0.34 0.34 0.66 0.68 0.96 1.08 c0.84 1.08 1.26 2.24 1.32 3.52 l0 0.08 l-2 0 l0 0 z M66.76 13.719999999999999 l3.48 0 c1.12 0 2.3 -0.8 2.3 -2.26 s-1.18 -2.24 -2.3 -2.24 l-3.48 0 l0 4.5 z M83.86 20 l-2.08 0 l3.68 -12.78 l3.02 0 l3.7 12.78 l-2.1 0 l-1.08 -3.76 l-4.36 1.02 z M86.98 9.18 l-1.7 5.88 l3.16 -0.76 z M99.02000000000001 20.18 c-1.92 0 -4.38 -0.54 -5.18 -0.84 l0.7 -1.88 c0.74 0.28 3.84 0.92 5.3 0.66 c0.5 -0.08 0.9 -0.54 0.98 -1.06 c0.08 -0.68 -0.42 -1.34 -1.4 -1.8 c-0.6 -0.28 -1.72 -0.76 -2.62 -1.14 c-0.52 -0.22 -0.98 -0.42 -1.26 -0.54 c-0.72 -0.32 -1.32 -0.82 -1.72 -1.4 c-0.38 -0.58 -0.58 -1.24 -0.56 -1.92 c0.02 -0.64 0.22 -1.24 0.6 -1.76 c0.38 -0.54 0.92 -0.94 1.56 -1.18 c0.86 -0.34 2.1 -0.34 3.68 -0.06 c1.2 0.24 2.28 0.58 2.74 0.74 l-0.7 1.88 c-0.36 -0.14 -1.34 -0.44 -2.42 -0.64 c-1.64 -0.32 -2.36 -0.14 -2.58 -0.06 c-0.54 0.2 -0.86 0.62 -0.88 1.14 c-0.02 0.58 0.4 1.12 1.1 1.44 c0.26 0.1 0.72 0.3 1.24 0.52 c0.9 0.4 2.04 0.88 2.68 1.18 c0.92 0.44 1.6 1 2.04 1.7 c0.42 0.68 0.58 1.42 0.48 2.18 c-0.18 1.38 -1.26 2.5 -2.6 2.74 c-0.36 0.06 -0.76 0.1 -1.18 0.1 z  M110.16000000000001 20.18 c-1.92 0 -4.38 -0.54 -5.18 -0.84 l0.7 -1.88 c0.74 0.28 3.84 0.92 5.3 0.66 c0.5 -0.08 0.9 -0.54 0.98 -1.06 c0.08 -0.68 -0.42 -1.34 -1.4 -1.8 c-0.6 -0.28 -1.72 -0.76 -2.62 -1.14 c-0.52 -0.22 -0.98 -0.42 -1.26 -0.54 c-0.72 -0.32 -1.32 -0.82 -1.72 -1.4 c-0.38 -0.58 -0.58 -1.24 -0.56 -1.92 c0.02 -0.64 0.22 -1.24 0.6 -1.76 c0.38 -0.54 0.92 -0.94 1.56 -1.18 c0.86 -0.34 2.1 -0.34 3.68 -0.06 c1.2 0.24 2.28 0.58 2.74 0.74 l-0.7 1.88 c-0.36 -0.14 -1.34 -0.44 -2.42 -0.64 c-1.64 -0.32 -2.36 -0.14 -2.58 -0.06 c-0.54 0.2 -0.86 0.62 -0.88 1.14 c-0.02 0.58 0.4 1.12 1.1 1.44 c0.26 0.1 0.72 0.3 1.24 0.52 c0.9 0.4 2.04 0.88 2.68 1.18 c0.92 0.44 1.6 1 2.04 1.7 c0.42 0.68 0.58 1.42 0.48 2.18 c-0.18 1.38 -1.26 2.5 -2.6 2.74 c-0.36 0.06 -0.76 0.1 -1.18 0.1 z  M118.16000000000001 20 l-2 0 l0 -12.78 l2 0 l0 12.78 z M126.10000000000001 20.18 c-1.92 0 -4.38 -0.54 -5.18 -0.84 l0.7 -1.88 c0.74 0.28 3.84 0.92 5.3 0.66 c0.5 -0.08 0.9 -0.54 0.98 -1.06 c0.08 -0.68 -0.42 -1.34 -1.4 -1.8 c-0.6 -0.28 -1.72 -0.76 -2.62 -1.14 c-0.52 -0.22 -0.98 -0.42 -1.26 -0.54 c-0.72 -0.32 -1.32 -0.82 -1.72 -1.4 c-0.38 -0.58 -0.58 -1.24 -0.56 -1.92 c0.02 -0.64 0.22 -1.24 0.6 -1.76 c0.38 -0.54 0.92 -0.94 1.56 -1.18 c0.86 -0.34 2.1 -0.34 3.68 -0.06 c1.2 0.24 2.28 0.58 2.74 0.74 l-0.7 1.88 c-0.36 -0.14 -1.34 -0.44 -2.42 -0.64 c-1.64 -0.32 -2.36 -0.14 -2.58 -0.06 c-0.54 0.2 -0.86 0.62 -0.88 1.14 c-0.02 0.58 0.4 1.12 1.1 1.44 c0.26 0.1 0.72 0.3 1.24 0.52 c0.9 0.4 2.04 0.88 2.68 1.18 c0.92 0.44 1.6 1 2.04 1.7 c0.42 0.68 0.58 1.42 0.48 2.18 c-0.18 1.38 -1.26 2.5 -2.6 2.74 c-0.36 0.06 -0.76 0.1 -1.18 0.1 z  M139.57999999999998 7.199999999999999 l0 2 l-3.12 0 l0 10.8 l-2 0 l0 -10.8 l-3.1 0 l0 -2 l8.22 0 z"></path>
-                    </g>
-                    <g id="SvgjsG3109" featurekey="pYXC9J-0"
-                       transform="matrix(1.231440477761926,0,0,1.231440477761926,34.18725005977661,204.25170615837678)"
-                       fill="url(#SvgjsLinearGradient3116)">
-                        <path d="M5.88 5.48 c1.84 0 3.2 0.54006 4.08 1.6201 l-1.56 1.42 c-0.24 -0.37334 -0.58 -0.67334 -1.02 -0.9 s-0.94666 -0.34 -1.52 -0.34 c-0.82666 0 -1.49 0.20334 -1.99 0.61 s-0.75 0.93 -0.75 1.57 c0 1.0667 0.70666 1.8133 2.12 2.24 l1.78 0.58 c1 0.32 1.7633 0.76666 2.29 1.34 s0.79 1.36 0.79 2.36 c0 1.3067 -0.46334 2.3634 -1.39 3.17 s-2.1034 1.21 -3.53 1.21 c-2.04 0 -3.5466 -0.65334 -4.52 -1.96 l1.58 -1.36 c0.30666 0.48 0.72666 0.85334 1.26 1.12 s1.1133 0.4 1.74 0.4 c0.78666 0 1.4533 -0.22666 2 -0.68 s0.82 -1.0133 0.82 -1.68 c0 -0.49334 -0.16666 -0.90668 -0.5 -1.24 s-0.93334 -0.63334 -1.8 -0.9 l-1.26 -0.42 c-1.2667 -0.42666 -2.1534 -0.97 -2.66 -1.63 s-0.76 -1.51 -0.76 -2.55 c0 -1.1067 0.44666 -2.0466 1.34 -2.82 s2.0466 -1.16 3.46 -1.16 z M22.744 5.84 l6.06 14.16 l-2.24 0 l-1.42 -3.5 l-6.74 0 l-1.4 3.5 l-2.24 0 l6.24 -14.16 l1.74 0 z M19.084000000000003 14.82 l5.36 0 l-2.64 -6.5 l-0.04 0 z M43.168 5.84 l0 1.8 l-6.98 0 l0 4.44 l6.5 0 l0 1.8 l-6.5 0 l0 6.12 l-1.92 0 l0 -14.16 l8.9 0 z M58.512 5.84 l0 1.8 l-7.22 0 l0 4.22 l6.72 0 l0 1.8 l-6.72 0 l0 4.54 l7.58 0 l0 1.8 l-9.5 0 l0 -14.16 l9.14 0 z M74.656 5.84 l0 1.8 l-4.56 0 l0 12.36 l-1.92 0 l0 -12.36 l-4.56 0 l0 -1.8 l11.04 0 z M80.76 5.84 l3.86 6.22 l3.98 -6.22 l2.34 0 l-5.36 8.12 l0 6.04 l-1.92 0 l0 -6.04 l-5.36 -8.12 l2.46 0 z M111.548 5.84 l6.06 14.16 l-2.24 0 l-1.42 -3.5 l-6.74 0 l-1.4 3.5 l-2.24 0 l6.24 -14.16 l1.74 0 z M107.888 14.82 l5.36 0 l-2.64 -6.5 l-0.04 0 z M125.59200000000001 5.84 l7.8 11.64 l0.04 0 l0 -11.64 l1.92 0 l0 14.16 l-2.44 0 l-7.88 -11.64 l-0.04 0 l0 11.64 l-1.92 0 l0 -14.16 l2.52 0 z M147.336 5.84 c1.5067 0 2.8134 0.31 3.92 0.93 s1.9533 1.47 2.54 2.55 s0.88 2.28 0.88 3.6 s-0.32666 2.5234 -0.98 3.61 s-1.5667 1.9367 -2.74 2.55 s-2.48 0.92 -3.92 0.92 l-4.74 0 l0 -14.16 l5.04 0 z M146.73600000000002 18.2 c1.08 0 2.07 -0.21002 2.97 -0.63002 s1.6133 -1.0233 2.14 -1.81 s0.79 -1.7333 0.79 -2.84 c0 -1.6 -0.49666 -2.88 -1.49 -3.84 s-2.31 -1.44 -3.95 -1.44 l-2.98 0 l0 10.56 l2.52 0 z M174.304 5.48 c1.84 0 3.2 0.54006 4.08 1.6201 l-1.56 1.42 c-0.24 -0.37334 -0.58 -0.67334 -1.02 -0.9 s-0.94666 -0.34 -1.52 -0.34 c-0.82666 0 -1.49 0.20334 -1.99 0.61 s-0.75 0.93 -0.75 1.57 c0 1.0667 0.70666 1.8133 2.12 2.24 l1.78 0.58 c1 0.32 1.7633 0.76666 2.29 1.34 s0.79 1.36 0.79 2.36 c0 1.3067 -0.46334 2.3634 -1.39 3.17 s-2.1034 1.21 -3.53 1.21 c-2.04 0 -3.5466 -0.65334 -4.52 -1.96 l1.58 -1.36 c0.30666 0.48 0.72666 0.85334 1.26 1.12 s1.1133 0.4 1.74 0.4 c0.78666 0 1.4533 -0.22666 2 -0.68 s0.82 -1.0133 0.82 -1.68 c0 -0.49334 -0.16666 -0.90668 -0.5 -1.24 s-0.93334 -0.63334 -1.8 -0.9 l-1.26 -0.42 c-1.2667 -0.42666 -2.1534 -0.97 -2.66 -1.63 s-0.76 -1.51 -0.76 -2.55 c0 -1.1067 0.44666 -2.0466 1.34 -2.82 s2.0466 -1.16 3.46 -1.16 z M186.648 5.84 l0 8.74 c0 1.16 0.32334 2.1134 0.97 2.86 s1.51 1.12 2.59 1.12 s1.9433 -0.37334 2.59 -1.12 s0.97 -1.7 0.97 -2.86 l0 -8.74 l1.92 0 l0 9.06 c0 0.97334 -0.23 1.8833 -0.69 2.73 s-1.1133 1.5133 -1.96 2 s-1.79 0.73 -2.83 0.73 c-1.6 0 -2.9134 -0.52334 -3.94 -1.57 s-1.54 -2.3434 -1.54 -3.89 l0 -9.06 l1.92 0 z M207.77200000000002 5.84 c1.3867 0 2.4734 0.34666 3.26 1.04 s1.18 1.6667 1.18 2.92 c0 0.94666 -0.32334 1.7733 -0.97 2.48 s-1.4767 1.1267 -2.49 1.26 l-0.02 0 l4.02 6.46 l-2.4 0 l-3.6 -6.24 l-2.14 0 l0 6.24 l-1.92 0 l0 -14.16 l5.08 0 z M207.21200000000002 12.08 c1 0 1.7433 -0.18336 2.23 -0.55002 s0.73 -0.94332 0.73 -1.73 c0 -1.52 -0.98666 -2.28 -2.96 -2.28 l-2.6 0 l0 4.56 l2.6 0 z M227.67600000000002 5.84 l0 1.8 l-7.22 0 l0 4.22 l6.72 0 l0 1.8 l-6.72 0 l0 4.54 l7.58 0 l0 1.8 l-9.5 0 l0 -14.16 l9.14 0 z"></path>
-                    </g>
-                </svg>
-            </div>
-        </div>
-    </div>
-    <div class="top-right">
-        <div id="kc-locale">
-            <div id="kc-locale-wrapper" class="">
-                <div class="kc-dropdown" id="kc-locale-dropdown">
-
-                    <a href="#" id="kc-current-locale-link">BG</a>
-                    <ul>
-                        <li class="kc-dropdown-item"><a href="/auth/realms/azbg-customer-portal/login-actions/authenticate?client_id=customer-portal&amp;tab_id=vGO_GME1sDs&amp;execution=164e18ae-37d4-410c-b1ec-3c20d51b4b48&amp;kc_locale=bg">Bulgarian</a></li>
-                        <li class="kc-dropdown-item"><a href="/auth/realms/azbg-customer-portal/login-actions/authenticate?client_id=customer-portal&amp;tab_id=vGO_GME1sDs&amp;execution=164e18ae-37d4-410c-b1ec-3c20d51b4b48&amp;kc_locale=en">English</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<div th:replace="~{/fragments/login-register-top-line}"></div>
 <div class="login-pf-page">
-
     <div class="main-wrapper">
-        <div id="alert-panel" class="alert-row">
-        </div>
+        <div id="alert-panel" class="alert-row"></div>
         <div class="row">
             <div class="column left-column">
                 <div class="card-pf ">
@@ -83,20 +28,28 @@
                                     <form id="kc-form-login"
                                           onsubmit="login.disabled = true; return true; "
                                           th:action="@{/users/login}"
-                                          th:method="post"
+                                          th:method="post">
 
                                         <div class="email-password-title">
                                             Въведи имейл и парола за вход
                                         </div>
 
                                         <div class="form-group">
-                                            <input tabindex="1" id="username" oninput="loginEnableSubmit(); disableEvrotrustInput()"
-                                                   class="form-control" name="username" placeholder="Имейл" type="text" autofocus="" autocomplete="off">
+                                            <input tabindex="1" id="username"
+                                                   oninput="loginEnableSubmit(); disableEvrotrustInput()"
+                                                   class="form-control" name="username" placeholder="Имейл" type="text"
+                                                   autofocus="" autocomplete="off">
                                         </div>
 
                                         <div class="form-group">
-                                            <input tabindex="2" id="password" oninput="loginEnableSubmit() ; disableEvrotrustInput()" class="form-control" name="password" placeholder="Парола" type="password" autocomplete="off">
-                                            <span toggle="#password" class="toggle-password" onclick="togglePass('password')"><img id="eye-password" src="/img/eye_open.svg" alt="eye"></span>
+                                            <input tabindex="2" id="password"
+                                                   oninput="loginEnableSubmit() ; disableEvrotrustInput()"
+                                                   class="form-control" name="password" placeholder="Парола"
+                                                   type="password" autocomplete="off">
+                                            <span toggle="#password" class="toggle-password"
+                                                  onclick="togglePass('password')"><img id="eye-password"
+                                                                                        src="/img/eye_open.svg"
+                                                                                        alt="eye"></span>
                                         </div>
 
                                         <div class="login-pf-settings">
@@ -104,26 +57,45 @@
 
                                             </div>
                                             <div class="">
-                                                <span class="navi-link"><a tabindex="5" href="/auth/realms/azbg-customer-portal/login-actions/reset-credentials?client_id=customer-portal&amp;tab_id=vGO_GME1sDs">Забравена парола?</a></span>
+                                                <span class="navi-link"><a tabindex="5"
+                                                                           href="/auth/realms/azbg-customer-portal/login-actions/reset-credentials?client_id=customer-portal&amp;tab_id=vGO_GME1sDs">Забравена парола?</a></span>
                                             </div>
 
                                         </div>
 
-                                        <div id="kc-form-buttons" class="form-group">
-                                            <input type="hidden" id="id-hidden-input" name="credentialId">
-                                            <input tabindex="4" class="login-button" name="login" id="kc-login" type="submit" value="НАПРЕД" disabled="">
+                                        <div class="form-group ">
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                <div class="row gdpr1">
+                                                    С натискане на бутон „НАПРЕД“, потвърждавам, че прочетох и съм
+                                                    съгласен с <a
+                                                        href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/documents/GT_C_customerportal_30.06.2021.pdf"
+                                                        target="_blank">Условията</a> и Съобщение за лични данни на <a
+                                                        href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/gdpr/%D0%97%D0%90%D0%94_%D0%90%D0%BB%D0%B8%D0%B0%D0%BD%D1%86_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F_%D0%96%D0%B8%D0%B2%D0%BE%D1%82.pdf"
+                                                        target="_blank">Алианц България Живот</a> и <a
+                                                        href="https://www.allianz.bg/content/dam/onemarketing/cee/azbg/gdpr/%D0%97%D0%90%D0%94_%D0%90%D0%BB%D0%B8%D0%B0%D0%BD%D1%86_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F.pdf"
+                                                        target="_blank">Алианц България</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <div id="kc-form-buttons" class="form-group">
+                                                <input type="hidden" id="id-hidden-input" name="credentialId">
+                                                <input tabindex="4" class="login-button" name="login" id="kc-login"
+                                                       type="submit" value="НАПРЕД" disabled="">
+                                            </div>
                                         </div>
 
                                     </form>
                                 </div>
                             </div>
 
-
-
                             <div id="kc-info" class="login-pf-signup">
                                 <div id="kc-info-wrapper" class="">
                                     <div id="kc-registration">
-                                        <span>Създаване на <a tabindex="6" href="/register">нов профил</a></span>
+                                        <span>Създаване на <a tabindex="6"
+                                                              href="/users/login/register">нов профил</a></span>
                                     </div>
 
                                 </div>
@@ -136,27 +108,8 @@
 
             </div>
             <div th:replace="~{fragments/right-column-login-register}"></div>
-<!--            <div class="column right-column">-->
-<!--                <div class="info-title">Добре дошли в клиентския портал My Ins</div>-->
-<!--                <div class="info-subtitle">Тук ще можете да:</div>-->
-<!--                <ul class="subpoints">-->
-<!--                    <li>Откриете информация за всички Ваши застраховки, плащания и документи</li>-->
-<!--                    <li>Добавите полица</li>-->
-<!--                    <li>Изготвите оферта</li>-->
-<!--                    <li>Проследите кореспонденцията си с нас</li>-->
-<!--                </ul>-->
-<!--                <div class="woman-illustration">-->
-<!--                    <img src="/img/woman_desc.png" alt="Woman on computer" width="217">-->
-<!--                </div>-->
-<!--            </div>-->
+
         </div>
-
-        <div class="row gdpr">
-            С натискане на бутон „НАПРЕД“, потвърждавам, че прочетох и съм съгласен с <a href="/GT_C_customerportal_30.06.2021.pdf" target="_blank">Условията</a> и Съобщение за лични данни на <a href="82.pdf" target="_blank">Армър асист</a>
-        </div>
-
-
-
 
     </div>
 
