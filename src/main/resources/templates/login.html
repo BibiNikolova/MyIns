@@ -3,21 +3,7 @@
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
 >
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>My Ins</title>
-    <link rel="stylesheet" href="/static/css/loginRegister/icons.css">
-    <link href="/static/css/loginRegister/patternfly.min.css" rel="stylesheet">
-    <link href="/static/css/loginRegister/patternfly-additions.min.css" rel="stylesheet">
-    <link href="/static/lib/zocial.css" rel="stylesheet">
-    <link href="/static/css/loginRegister/login.css" rel="stylesheet">
-    <link href="/static/css/loginRegister/style.css" rel="stylesheet">
-    <script src="/static/js/login/my.js"></script>
-</head>
+<head th:replace="~{fragments/login-register-head}"></head>
 
 <body class="">
 <div class="top-line">
@@ -82,7 +68,8 @@
             <div class="column left-column">
                 <div class="card-pf ">
                     <header class="login-pf-header">
-                        <div class="login-title">       <div style="text-align: center;">Регистрация/Вход </div>
+                        <div class="login-title">
+                            <div style="text-align: center;">Вход/Регистрация</div>
 
                         </div>
                     </header>
@@ -109,7 +96,7 @@
 
                                         <div class="form-group">
                                             <input tabindex="2" id="password" oninput="loginEnableSubmit() ; disableEvrotrustInput()" class="form-control" name="password" placeholder="Парола" type="password" autocomplete="off">
-                                            <span toggle="#password" class="toggle-password" onclick="togglePass('password')"><img id="eye-password" src="/static/img/eye_open.svg" alt="eye"></span>
+                                            <span toggle="#password" class="toggle-password" onclick="togglePass('password')"><img id="eye-password" src="/img/eye_open.svg" alt="eye"></span>
                                         </div>
 
                                         <div class="login-pf-settings">
@@ -136,9 +123,8 @@
                             <div id="kc-info" class="login-pf-signup">
                                 <div id="kc-info-wrapper" class="">
                                     <div id="kc-registration">
-                                        <span>Създаване на <a tabindex="6" href="/templates/register.html">нов профил</a></span>
+                                        <span>Създаване на <a tabindex="6" href="/register">нов профил</a></span>
                                     </div>
-
 
                                 </div>
                             </div>
@@ -149,19 +135,20 @@
                 </div>
 
             </div>
-            <div class="column right-column">
-                <div class="info-title">Добре дошли в клиентския портал My Ins</div>
-                <div class="info-subtitle">Тук ще можете да:</div>
-                <ul class="subpoints">
-                    <li>Откриете информация за всички Ваши застраховки, плащания и документи</li>
-                    <li>Добавите полица</li>
-                    <li>Изготвите оферта</li>
-                    <li>Проследите кореспонденцията си с нас</li>
-                </ul>
-                <div class="woman-illustration">        <img src="/static/img/woman_desc.png" alt="Woman on computer" width="217">
-
-                </div>
-            </div>
+            <div th:replace="~{fragments/right-column-login-register}"></div>
+<!--            <div class="column right-column">-->
+<!--                <div class="info-title">Добре дошли в клиентския портал My Ins</div>-->
+<!--                <div class="info-subtitle">Тук ще можете да:</div>-->
+<!--                <ul class="subpoints">-->
+<!--                    <li>Откриете информация за всички Ваши застраховки, плащания и документи</li>-->
+<!--                    <li>Добавите полица</li>-->
+<!--                    <li>Изготвите оферта</li>-->
+<!--                    <li>Проследите кореспонденцията си с нас</li>-->
+<!--                </ul>-->
+<!--                <div class="woman-illustration">-->
+<!--                    <img src="/img/woman_desc.png" alt="Woman on computer" width="217">-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
 
         <div class="row gdpr">
@@ -174,6 +161,6 @@
     </div>
 
 </div>
-<footer th:replace="~{/templates/fragments/footer}"></footer>
+<footer th:replace="~{/fragments/footer}"></footer>
 </body>
 </html>

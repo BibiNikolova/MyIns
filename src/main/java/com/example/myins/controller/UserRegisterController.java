@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/users/login")
 public class UserRegisterController {
 
     @GetMapping("/register")
@@ -30,7 +30,7 @@ public class UserRegisterController {
 
             return "redirect:/register";
         }
-        return "redirect:/login";
+        return "redirect:/ ";
 
     }
 
