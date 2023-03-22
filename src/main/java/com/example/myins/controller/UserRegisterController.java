@@ -30,7 +30,7 @@ public class UserRegisterController {
 
             return "redirect:/register";
         }
-        return "redirect:/ ";
+        return "redirect:/login";
 
     }
 
