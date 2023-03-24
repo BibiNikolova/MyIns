@@ -1,6 +1,7 @@
 package com.example.myins.controller;
 
 import com.example.myins.model.dto.UserRegisterFormDto;
+import com.example.myins.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -13,6 +14,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 @RequestMapping("/users/login")
 public class UserRegisterController {
+
+    private final AuthService authService;
+
+    public UserRegisterController(AuthService authService) {
+        this.authService = authService;
+    }
 
     @GetMapping("/register")
     public String register() {
@@ -28,10 +35,12 @@ public class UserRegisterController {
             redirectAttributes.addFlashAttribute(
                     "org.springframework.validation.BindingResult.registrationDTO", bindingResult);
 
-            return "redirect:/register";
+            return "redirect:/";
         }
-        return "redirect:/login";
 
+        authService.registerUser(userRegisterFormDto);
+
+        return "redirect:/users/login";
     }
 
     @ModelAttribute(name = "userRegisterFormDto")

@@ -2,7 +2,7 @@
 <html lang="bg" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
-<head th:replace="~{fragments/login-register-head}"></head>
+<head th:replace="~{fragments/head}"></head>
 
 <body class="">
 <div th:replace="~{/fragments/login-register-top-line}"></div>
@@ -47,9 +47,8 @@
                                                    class="form-control" name="password" placeholder="Парола"
                                                    type="password" autocomplete="off">
                                             <span toggle="#password" class="toggle-password"
-                                                  onclick="togglePass('password')"><img id="eye-password"
-                                                                                        src="/img/eye_open.svg"
-                                                                                        alt="eye"></span>
+                                                  onclick="togglePass('password')">
+                                                <img id="eye-password" src="/img/eye_open.svg" alt="eye"></span>
                                         </div>
 
                                         <div class="login-pf-settings">
