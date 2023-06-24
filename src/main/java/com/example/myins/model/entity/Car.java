@@ -1,18 +1,21 @@
 package com.example.myins.model.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name = "cars")
-public class Car extends BaseEntity{
+public class Car {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @Column(nullable = false)
     private String DKN;
     @ManyToOne
@@ -25,6 +28,6 @@ public class Car extends BaseEntity{
     private LocalDate yearOfRegistration;
     @ManyToOne
     private Client owner;
-    @ManyToOne
+    @OneToOne
     private Policy carPolicy;
 }

@@ -1,21 +1,22 @@
 package com.example.myins.model.entity;
 
-import com.example.myins.model.enums.BrandName;
-import com.example.myins.model.enums.ModelName;
 import jakarta.persistence.*;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
+import java.util.Set;
+
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name = "brands")
-public class Brand extends BaseEntity {
-    @Enumerated(EnumType.STRING)
-    private BrandName brandName;
-
-//    private Model model;
+public class Brand {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Column(nullable = false)
+    private String brandName;
+    @OneToMany
+    private Set<Model> model;
 
 }

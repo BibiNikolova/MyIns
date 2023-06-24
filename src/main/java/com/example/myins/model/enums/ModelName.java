@@ -1,5 +1,5 @@
 package com.example.myins.model.enums;
-
+//TODO: DBSeeder init
 public enum ModelName {
     M_COUPE,
     M_ROADSTER,

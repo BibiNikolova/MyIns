@@ -28,10 +28,11 @@ public class AuthService {
 
     public void registerUser(UserRegisterFormDto registrationDTO) {
 
-        UserEntity userEntity = new UserEntity()
-                .setEmail(registrationDTO.getEmail())
-                .setPhone(registrationDTO.getPhone())
-                .setPassword(passwordEncoder.encode(registrationDTO.getPassword()));
+        UserEntity userEntity = UserEntity.builder()
+                .email(registrationDTO.getEmail())
+                .phone(registrationDTO.getPhone())
+                .password(passwordEncoder.encode(registrationDTO.getPassword()))
+                .build();
 
         userRepo.save(userEntity);
 

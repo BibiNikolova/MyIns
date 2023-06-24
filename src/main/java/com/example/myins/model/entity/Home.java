@@ -2,16 +2,19 @@ package com.example.myins.model.entity;
 
 import com.example.myins.model.enums.HomeType;
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name = "homes")
-public class Home extends BaseEntity{
+public class Home {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @Column(nullable = false)
     private Double totalBuiltUpArea;
 

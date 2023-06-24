@@ -3,6 +3,7 @@ package com.example.myins.model.entity;
 import com.example.myins.model.enums.PaymentType;
 import com.example.myins.model.enums.PolicyTitle;
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,11 +11,13 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @Entity(name = "policies")
-public class Policy extends BaseEntity {
+public class Policy {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private PolicyTitle policyTitle;
@@ -23,7 +26,7 @@ public class Policy extends BaseEntity {
     private String policyNumber;
 
     @ManyToOne
-    private Client insured;
+    private Client policyHolder;
 
     @Column(nullable = false)
     private Long insuredSum;

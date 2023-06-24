@@ -1,18 +1,21 @@
 package com.example.myins.model.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name = "clients")
-public class Client extends BaseEntity{
+public class Client {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column(nullable = false)
     private String firstName;
@@ -41,7 +44,7 @@ public class Client extends BaseEntity{
     @OneToMany
     private List<Policy> policies;
 
-    private boolean electronicCommunicationAcceptance;
+    private boolean electronicCommunicationAcceptance;//TODO: is it necessary in case email/phone are optional
 
 
 }

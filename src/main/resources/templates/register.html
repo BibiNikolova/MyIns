@@ -172,11 +172,11 @@
                                                    type="text" id="mobileNumber" autocomplete="chrome-off"
                                                    name="mobileNumber" class="form-control"
                                                    placeholder="Мобилен номер"
-                                                   onkeyup="toggleLabel('mobileNumber'); fieldTypeValidate('mobileNumber')"
+                                                   onkeyup="toggleLabel('phone'); fieldTypeValidate('phone')"
                                                    onkeydown="return numOnly(event);"
                                                    oninput="resetPhoneField(); phoneMaskRegistration(event)"
                                                    inputmode="numeric" maxlength="15"
-                                                   onblur="blurEmptyField('mobileNumber', false); validatePhoneRegistration()"
+                                                   onblur="blurEmptyField('phone', false); validatePhoneRegistration()"
                                                    onpaste="return false"
                                                    ondrop="return false" size="20"
                                                    onfocus="this.removeAttribute('readonly');" readonly="">
@@ -187,10 +187,12 @@
                                         Полето е задължително!
                                     </div>
                                     <div class="field-hint">
-                                        +359 88 488 76хх
+                                        +359 884 887 6хх
                                     </div>
 
                                 </div>
+
+
 
                                 <div class="form-group ">
                                     <div id="label-password" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bogus">
@@ -212,12 +214,21 @@
                                         Полето е задължително!
                                     </div>
                                 </div>
+
                                 <div id="password-validation">
                                     <div>Изисквания за паролата:</div>
-                                    <div id="valid10charsMin" class="validationRow"><span class="validPrefix"></span>минимум
-                                        5 символа
-                                    </div>
+                                    <div id="valid10charsMin" class="validationRow"><span class="validPrefix"></span>минимум 10 символа</div>
+                                    <div id="valid2Capitals" class="validationRow"><span class="validPrefix"></span>минимум 1 главна буква</div>
+                                    <div id="valid2Numbers" class="validationRow"><span class="validPrefix"></span>минимум 1 цифра</div>
+                                    <div id="validSpecials" class="validationRow"><span class="validPrefix"></span>минимум 1 специален символ</div>
                                 </div>
+<!--                                -->
+<!--                                <div id="password-validation">-->
+<!--                                    <div>Изисквания за паролата:</div>-->
+<!--                                    <div id="valid10charsMin" class="validationRow"><span class="validPrefix"></span>минимум-->
+<!--                                        5 символа-->
+<!--                                    </div>-->
+<!--                                </div>-->
 
                                 <div class="form-group ">
                                     <div id="label-password-confirm"

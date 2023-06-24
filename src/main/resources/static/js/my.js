@@ -527,7 +527,7 @@ function phoneMaskRegistration(e) {
         phoneNumberElem.value = phoneNumberElem.value.substring(1);
     }
     if (phoneCodeElem.value == "+359") {
-        if (numLen == 2 || numLen == 6) {
+        if (numLen == 3 || numLen == 7) {
             phoneNumberElem.value = phoneNumberElem.value + " ";
         }
         if (numLen > 10) {
@@ -542,8 +542,8 @@ function changeMaskRegistration() {
     var phone = phoneNumberElem.value.trim();
     phone = phone.replace(/[^0-9]/g, "");
     if (phoneCodeElem.value == "+359") {
-        phone = [phone.slice(0, 2), " ", phone.slice(2)].join("");
-        phone = [phone.slice(0, 6), " ", phone.slice(6)].join("");
+        phone = [phone.slice(0, 3), " ", phone.slice(3)].join("");
+        phone = [phone.slice(0, 7), " ", phone.slice(7)].join("");
         phone = phone.substring(0, 11);
         phoneNumberElem.value = phone;
     } else {
@@ -644,7 +644,7 @@ function phoneMask(e) {
             phoneNumberElem.value = phoneNumberElem.value.substring(1);
         }
         if (phoneCodeElem.value == "+359") {
-            if (numLen == 2 || numLen == 6) {
+            if (numLen == 3 || numLen == 7) {
                 phoneNumberElem.value = phoneNumberElem.value + " ";
             }
             if (numLen > 10) {
@@ -681,8 +681,8 @@ function changeMask() {
     var phone = phoneNumberElem.value.trim();
     phone = phone.replace(/[^0-9]/g, "");
     if (phoneCodeElem.value == "+359") {
-        phone = [phone.slice(0, 2), " ", phone.slice(2)].join("").trim();
-        phone = [phone.slice(0, 6), " ", phone.slice(6)].join("").trim();
+        phone = [phone.slice(0, 3), " ", phone.slice(3)].join("").trim();
+        phone = [phone.slice(0, 7), " ", phone.slice(7)].join("").trim();
         phone = phone.substring(0, 11);
 
         phoneNumberElem.value = phone;
