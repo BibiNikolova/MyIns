@@ -13,11 +13,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 public class TravelController {
 
-    private final OfferService offerService;
 
-    public TravelController(OfferService offerService) {
-        this.offerService = offerService;
-    }
 
     @GetMapping("/travel")
     public String travel() {

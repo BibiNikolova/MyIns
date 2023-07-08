@@ -1,18 +1,22 @@
 package com.example.myins.model.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.util.List;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
-@Table(name = "clients")
-public class Client {
+@Table(name = "policy_holders")
+//company as policyholder is not available yet
+public class PolicyHolder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -37,14 +41,11 @@ public class Client {
     private String email;
 
     @OneToMany
-    private List<Car> cars;
+    private Set<Car> cars;
     @OneToMany
-    private List<Home> homes;
+    private Set<Home> homes;
 
     @OneToMany
     private List<Policy> policies;
-
-    private boolean electronicCommunicationAcceptance;//TODO: is it necessary in case email/phone are optional
-
 
 }

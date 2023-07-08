@@ -4,9 +4,7 @@ import com.example.myins.model.enums.PaymentType;
 import com.example.myins.model.enums.PolicyTitle;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -26,7 +24,7 @@ public class Policy {
     private String policyNumber;
 
     @ManyToOne
-    private Client policyHolder;
+    private PolicyHolder policyHolder;
 
     @Column(nullable = false)
     private Long insuredSum;

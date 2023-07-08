@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -25,9 +25,10 @@ public class UserEntity {
     @Column(nullable = false)
     private String password;
     @ManyToMany(cascade = CascadeType.MERGE)
-    private List<Role> roles;
-    @ManyToOne
-    private Client client;
+    private Set<Role> roles;
+
+    @OneToMany
+    private Set<PolicyHolder> policyHolder;
 
 }
 

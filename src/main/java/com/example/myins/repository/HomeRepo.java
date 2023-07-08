@@ -1,7 +1,5 @@
 package com.example.myins.repository;
 
-import com.example.myins.model.entity.Car;
-import com.example.myins.model.entity.Client;
 import com.example.myins.model.entity.Home;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -2,13 +2,12 @@ package com.example.myins.model.entity;
 
 import com.example.myins.model.enums.HomeType;
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "homes")
 public class Home {
@@ -25,9 +24,7 @@ public class Home {
     @Enumerated(EnumType.STRING)
     private HomeType homeType;
 
-    @ManyToOne
-    private Client owner;
+//    @ManyToOne
+//    private PolicyHolder owner; //TODO: not necessary to have one
 
-    @OneToOne
-    private Policy homePolicy;
 }
