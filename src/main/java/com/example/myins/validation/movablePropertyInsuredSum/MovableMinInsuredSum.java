@@ -1,6 +1,5 @@
 package com.example.myins.validation.movablePropertyInsuredSum;
 
-import com.example.myins.validation.immovablePropertyInsuredSum.ImmovablePropertyInsuredSum;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

@@ -1,7 +1,6 @@
 package com.example.myins.controller;
 
 import com.example.myins.model.dto.InputTravelOfferDto;
-import com.example.myins.service.OfferService;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -12,8 +11,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class TravelController {
-
-
 
     @GetMapping("/travel")
     public String travel() {

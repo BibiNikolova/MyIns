@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -31,8 +32,7 @@ public abstract class Offer {
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private PaymentType paymentType;
-
-    @Column(nullable = false)
-    private BigDecimal grossWrittenPremium;
+    @OneToMany
+    private List<GrossWrittenPremium> premiums;
 
 }

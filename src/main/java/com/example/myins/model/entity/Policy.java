@@ -20,8 +20,10 @@ public class Policy {
     @Enumerated(EnumType.STRING)
     private PolicyTitle policyTitle;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String policyNumber;
+    @ManyToOne
+    private Company companyName;
 
     @ManyToOne
     private PolicyHolder policyHolder;
@@ -39,7 +41,7 @@ public class Policy {
     @Enumerated(EnumType.STRING)
     private PaymentType paymentType;
 
-    @Column(nullable = false)
-    private BigDecimal grossWrittenPremium;
+    @OneToOne
+    private GrossWrittenPremium grossWrittenPremium;
 
 }
