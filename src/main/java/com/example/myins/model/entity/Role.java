@@ -3,9 +3,7 @@ package com.example.myins.model.entity;
 import com.example.myins.model.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Data
 @NoArgsConstructor
